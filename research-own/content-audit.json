@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "sourceFiles": [
+    {
+      "name": "competitor-audit.md",
+      "characters": 4824,
+      "sha256": "9469ec865e342170cd5fb305fbc4f969630e5cb331486e9d19dfc097524c36c7"
+    },
+    {
+      "name": "scoring-hypothesis.md",
+      "characters": 3738,
+      "sha256": "2176e000d1140f11bb04100bc23917fe0a7e4b3fbb55ff7f8702b6ecfe2e56a1"
+    },
+    {
+      "name": "question-analysis.md",
+      "characters": 41001,
+      "sha256": "1dacd53677af992315c1ab5e033c3ae473addff5be6ae8b2d7784497af9212ca"
+    },
+    {
+      "name": "question-bank.md",
+      "characters": 202458,
+      "sha256": "091ca2356d1727342f5bf4a236f985967b19224e8bf11bcbaabfbac4bb7e5373"
+    },
+    {
+      "name": "result-page-analysis.md",
+      "characters": 3188,
+      "sha256": "e2d696097316622c3290968683013c6af1811535b6eb1bc8d72a591d10dd64ec"
+    }
+  ],
+  "bankLoadedCompletely": true,
+  "exactQuestions": [],
+  "exactOptions": [],
+  "duplicateReports": [],
+  "historicalLengths": [
+    {
+      "name": "苏轼",
+      "length": 175,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "王阳明",
+      "length": 184,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "曹操",
+      "length": 172,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "诸葛亮",
+      "length": 176,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "李白",
+      "length": 172,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "陶渊明",
+      "length": 167,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "刘邦",
+      "length": 178,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "秦始皇",
+      "length": 184,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "张居正",
+      "length": 181,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "王安石",
+      "length": 180,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "辛弃疾",
+      "length": 183,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "司马迁",
+      "length": 169,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "郑和",
+      "length": 181,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "韩信",
+      "length": 172,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "武则天",
+      "length": 169,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "李清照",
+      "length": 171,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "上官婉儿",
+      "length": 176,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "班昭",
+      "length": 175,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "蔡文姬",
+      "length": 174,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "妇好",
+      "length": 177,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "吕雉",
+      "length": 174,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "长孙皇后",
+      "length": 181,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "卓文君",
+      "length": 182,
+      "status": "TODO: FACT_CHECK"
+    },
+    {
+      "name": "冯太后",
+      "length": 181,
+      "status": "TODO: FACT_CHECK"
+    }
+  ],
+  "notes": [
+    "Exact phrase screening is a guardrail, not a legal originality certificate.",
+    "All 24 historical passages have source leads but retain TODO: FACT_CHECK for pre-sale primary-source review.",
+    "The application has no runtime imports from research/."
+  ]
+}

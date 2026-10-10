@@ -1,0 +1,192 @@
+{
+  "landingA11y": [],
+  "darkLandingA11y": [],
+  "questionA11y": [],
+  "resultA11y": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#758f82",
+                "bgColor": "#f3f4ed",
+                "contrastRatio": 3.15,
+                "fontSize": "17.3pt (23px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<html lang=\"zh-CN\">",
+                  "target": [
+                    "html"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>01</span>",
+          "target": [
+            "article:nth-child(1) > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#758f82",
+                "bgColor": "#f3f4ed",
+                "contrastRatio": 3.15,
+                "fontSize": "17.3pt (23px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<html lang=\"zh-CN\">",
+                  "target": [
+                    "html"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>02</span>",
+          "target": [
+            "article:nth-child(2) > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#758f82",
+                "bgColor": "#f3f4ed",
+                "contrastRatio": 3.15,
+                "fontSize": "17.3pt (23px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<html lang=\"zh-CN\">",
+                  "target": [
+                    "html"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>03</span>",
+          "target": [
+            "article:nth-child(3) > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #758f82, background color: #f3f4ed, font size: 17.3pt (23px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ],
+  "shareA11y": [],
+  "flows": [
+    {
+      "primary": "su-shi",
+      "seed": 2830918860,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    },
+    {
+      "primary": "wang-yangming",
+      "seed": 796131229,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    },
+    {
+      "primary": "li-qingzhao",
+      "seed": 1488358388,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    },
+    {
+      "primary": "cao-cao",
+      "seed": 1068550448,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    },
+    {
+      "primary": "wu-zetian",
+      "seed": 3934523547,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    },
+    {
+      "primary": "zhangsun",
+      "seed": 4158287697,
+      "answersClicked": 30,
+      "export": {
+        "width": 1080,
+        "height": 1440
+      }
+    }
+  ],
+  "mobileShareFallback": true,
+  "corruptStorageRecovered": true,
+  "reducedMotion": true,
+  "pageErrors": [],
+  "passed": true
+}

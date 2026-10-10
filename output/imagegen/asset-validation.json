@@ -1,0 +1,890 @@
+[
+  {
+    "id": "su-shi",
+    "name": "苏轼",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 967113,
+    "sourceBounds": [
+      0,
+      9,
+      1024,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      67,
+      64,
+      68,
+      64
+    ],
+    "webpBytes": 68178,
+    "sourceSha256": "75fd883fc343bb2563af49fe760f7b04ddae4fdd24782b44df3c44e1cbec742b",
+    "webpSha256": "35332786f3b94edd92a18344aec4026f88d277ea77071d75fd083b92e8f0c094"
+  },
+  {
+    "id": "wang-yangming",
+    "name": "王阳明",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 998484,
+    "sourceBounds": [
+      33,
+      55,
+      1002,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      75,
+      64,
+      76,
+      64
+    ],
+    "webpBytes": 47900,
+    "sourceSha256": "ca2521569cc223479e448dcea6a03bf0b6bc96f1c2319dcabab8a8336875051d",
+    "webpSha256": "cb8d26bbaa32dee9ad27e0e725bde537bfc920c53083f67e6a850b25db118477"
+  },
+  {
+    "id": "cao-cao",
+    "name": "曹操",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 774559,
+    "sourceBounds": [
+      0,
+      47,
+      1004,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      65,
+      64,
+      66,
+      64
+    ],
+    "webpBytes": 53588,
+    "sourceSha256": "6f831b94292f1fc98611d319ccc81ed16bb83b201d6ef854fd6a72360840e3c1",
+    "webpSha256": "f84d6a6aecc61acb687ad9f8f3d9650f98ae505a9dab599b413e144082bee4d4"
+  },
+  {
+    "id": "zhuge-liang",
+    "name": "诸葛亮",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 990276,
+    "sourceBounds": [
+      33,
+      19,
+      976,
+      1502
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      96,
+      64,
+      85,
+      73
+    ],
+    "webpBytes": 51086,
+    "sourceSha256": "514303c8c80bf24d2c341a35b60b04a13751bea08accca595028ae1123886fe3",
+    "webpSha256": "4cbc99ccc30fcc8d6670853def3207c751357c592f3a4562878283d767776051"
+  },
+  {
+    "id": "li-bai",
+    "name": "李白",
+    "sourceSize": [
+      1122,
+      1402
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      255
+    ],
+    "sourceTransparentPixels": 1057148,
+    "sourceBounds": [
+      21,
+      20,
+      1044,
+      1392
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      65,
+      110,
+      64,
+      110
+    ],
+    "webpBytes": 48696,
+    "sourceSha256": "438b528327c4c094bd9de40c5bc306f26decc82577b9aa30194549a42c298f5e",
+    "webpSha256": "b6ff97156852cd23c428da65fad1829d3c28a7890143564b9703ce82c532e18e"
+  },
+  {
+    "id": "tao-yuanming",
+    "name": "陶渊明",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 906470,
+    "sourceBounds": [
+      0,
+      35,
+      1014,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      65,
+      65,
+      65,
+      64
+    ],
+    "webpBytes": 70580,
+    "sourceSha256": "c1dd2320e7445d1bd61e45ec1154acc6b8c924fb19b008c124fa089754bb45bc",
+    "webpSha256": "fea18f741f9f06f957d67b50b2356cd5e3402c3249a1102d181078a33d8ecb1a"
+  },
+  {
+    "id": "liu-bang",
+    "name": "刘邦",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 945389,
+    "sourceBounds": [
+      27,
+      23,
+      1012,
+      1496
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      68,
+      64,
+      69,
+      64
+    ],
+    "webpBytes": 50186,
+    "sourceSha256": "1e0a66de9208a7bbf6e4d72cdd7d054ceb7fb9cc6ee8ac9f1e2a34b66c07a414",
+    "webpSha256": "3aaca01b1339e27f64b25238239a9be2ec6eda22fe210bb466e3040904a7e5ee"
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": "秦始皇",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 918239,
+    "sourceBounds": [
+      0,
+      25,
+      1006,
+      1518
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      66,
+      64,
+      67,
+      64
+    ],
+    "webpBytes": 54512,
+    "sourceSha256": "7d541f6db53b17c2039a15cba5f099b812e02e364d94e53e3ccb038ae902daad",
+    "webpSha256": "adf228f3a29d6c9ec0693f4a1ad69eca35991727b41d32e781cd9ee591385620"
+  },
+  {
+    "id": "zhang-juzheng",
+    "name": "张居正",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 966725,
+    "sourceBounds": [
+      0,
+      31,
+      1004,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      69,
+      64,
+      69,
+      64
+    ],
+    "webpBytes": 47648,
+    "sourceSha256": "3268a17e28b268036aa0a0ec5369c5ae9e745ddf1868892d63e860c0e4822583",
+    "webpSha256": "b6fa00685e50bcdef0b3bfe8a025753ada1d6844bd889bdda93f8b39b2b0481b"
+  },
+  {
+    "id": "wang-anshi",
+    "name": "王安石",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 924473,
+    "sourceBounds": [
+      33,
+      9,
+      1004,
+      1518
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      81,
+      64,
+      81,
+      64
+    ],
+    "webpBytes": 45530,
+    "sourceSha256": "2a1802b4760e2fb33a4f21d9dfaf093421746c1417399c477184a58118e0e158",
+    "webpSha256": "1ec4472a3529c21fa675068cbac1a7a4b8dfc396b8625383cdb1a3d429172cca"
+  },
+  {
+    "id": "xin-qiji",
+    "name": "辛弃疾",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 883351,
+    "sourceBounds": [
+      62,
+      23,
+      1010,
+      1501
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      82,
+      64,
+      84,
+      64
+    ],
+    "webpBytes": 73518,
+    "sourceSha256": "42f9763ed3f1b19d95c1ef444d71042e856ee7a02e491ad7d259b6731eedf10f",
+    "webpSha256": "41a2a72d83deb7eb991cb433d614f05bcc170c1a1be3ca35553e4670eee7222e"
+  },
+  {
+    "id": "sima-qian",
+    "name": "司马迁",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 942771,
+    "sourceBounds": [
+      12,
+      119,
+      1012,
+      1480
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      64,
+      102,
+      64,
+      104
+    ],
+    "webpBytes": 52794,
+    "sourceSha256": "982d0770bbe3a5ef169e68f07ad5d2589022222eccbadc5c20262d4b9e1b75f7",
+    "webpSha256": "30d257e8cce4437ad3dd51c6e15ee5f9fc2ef8cd797e76b136149d9a04b4942a"
+  },
+  {
+    "id": "zheng-he",
+    "name": "郑和",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 815265,
+    "sourceBounds": [
+      0,
+      0,
+      1008,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      74,
+      64,
+      75,
+      64
+    ],
+    "webpBytes": 59296,
+    "sourceSha256": "e407f9a4069b348c836768f185e6d352b82369001ad236e6cf83dade84d6ccaa",
+    "webpSha256": "5dba517d4883c379bf441666d1f188b7995d95aaeaee07479c9fd792f31ddadb"
+  },
+  {
+    "id": "han-xin",
+    "name": "韩信",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 869875,
+    "sourceBounds": [
+      0,
+      0,
+      994,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      79,
+      64,
+      79,
+      64
+    ],
+    "webpBytes": 58590,
+    "sourceSha256": "e377d553e8133156b411d693171012ffe1bb00858ade50111f0af5a1a6449c98",
+    "webpSha256": "e99a5f06e9290a0cb08723108769798de0afb120231e5c7e9d6b7d51d84debc6"
+  },
+  {
+    "id": "wu-zetian",
+    "name": "武则天",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 901853,
+    "sourceBounds": [
+      0,
+      28,
+      992,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      73,
+      64,
+      89,
+      64
+    ],
+    "webpBytes": 58956,
+    "sourceSha256": "822962b9af1453c11685cc4ba3317e1b304ecebf7e8ba5ed16a5ccad70e7dbce",
+    "webpSha256": "756197e23631ef15015a760d6988b89153c58adc3e1f8e6f471a0365b3681f08"
+  },
+  {
+    "id": "li-qingzhao",
+    "name": "李清照",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 1015709,
+    "sourceBounds": [
+      0,
+      37,
+      988,
+      1512
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      68,
+      64,
+      68,
+      64
+    ],
+    "webpBytes": 49640,
+    "sourceSha256": "dbee5fa0b8311254b0c519456459d8daa91410bac34033b709f4ab9ce224d626",
+    "webpSha256": "093ccdff1513971bcb5ed71fe040257b5ad950610094987150ade76ba24910d9"
+  },
+  {
+    "id": "shangguan-waner",
+    "name": "上官婉儿",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 967390,
+    "sourceBounds": [
+      65,
+      32,
+      1004,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      90,
+      64,
+      91,
+      64
+    ],
+    "webpBytes": 56242,
+    "sourceSha256": "f7d8bd1a9c3679e0ef68635c14e7a3113bd119bf281ecc285dc2d9d912f60db5",
+    "webpSha256": "925bcee351441d94e883a9995aed124ace059ff2332de66b5230ad24d5bf8250"
+  },
+  {
+    "id": "ban-zhao",
+    "name": "班昭",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 958019,
+    "sourceBounds": [
+      25,
+      37,
+      992,
+      1496
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      71,
+      78,
+      72,
+      64
+    ],
+    "webpBytes": 62002,
+    "sourceSha256": "d98431486089859415626a0b8ef7387a6217687f368b83d1dac819d668588cfd",
+    "webpSha256": "6c33f79bafe1952a0c6c45694c2e4a933f729d86efd6cff6b0ca98fef0a0897d"
+  },
+  {
+    "id": "cai-wenji",
+    "name": "蔡文姬",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 1016386,
+    "sourceBounds": [
+      0,
+      53,
+      1002,
+      1498
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      64,
+      75,
+      64,
+      76
+    ],
+    "webpBytes": 58118,
+    "sourceSha256": "ef10dc68284c0e96c4e114d7d3460a85020a3316f379ea1ada8d80ebd029ca63",
+    "webpSha256": "ce9fd8edd36d92bf4fc2ef06e74c47cd70f84da607dd5d8565f0cb1fceb6b053"
+  },
+  {
+    "id": "fu-hao",
+    "name": "妇好",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 885573,
+    "sourceBounds": [
+      0,
+      29,
+      998,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      71,
+      93,
+      73,
+      64
+    ],
+    "webpBytes": 66716,
+    "sourceSha256": "d9d56d0d110e33ecfb3571c75924d1b910af36468cab6ea59f30ee0d6f17ddc5",
+    "webpSha256": "ada3c709cae2b0c4af3c69ec3185b4eddcb2a140db58f0f0818014b2a361449e"
+  },
+  {
+    "id": "lu-zhi",
+    "name": "吕雉",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 976852,
+    "sourceBounds": [
+      0,
+      31,
+      1004,
+      1498
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      64,
+      69,
+      64,
+      69
+    ],
+    "webpBytes": 51154,
+    "sourceSha256": "a886149c21af2e9ac0097d63a57c38d15ef3448ede27a3a245d60c88689d68ea",
+    "webpSha256": "7d177e8aaf73567b927f5460bce07582e2dd079731600f6a7dab3dcf74f1200e"
+  },
+  {
+    "id": "zhangsun",
+    "name": "长孙皇后",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 912852,
+    "sourceBounds": [
+      0,
+      21,
+      1000,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      72,
+      64,
+      73,
+      64
+    ],
+    "webpBytes": 65166,
+    "sourceSha256": "7c85f1f79921bb4d202c0cac3fa2bcf8938de88268e9e4de98c71fab1fbb1c18",
+    "webpSha256": "031cfebcd3c660dc8893ca2a31d96258b80171ae9815f54b2a44eee213131f28"
+  },
+  {
+    "id": "zhuo-wenjun",
+    "name": "卓文君",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 1044800,
+    "sourceBounds": [
+      9,
+      101,
+      1018,
+      1416
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      64,
+      122,
+      64,
+      122
+    ],
+    "webpBytes": 60856,
+    "sourceSha256": "f6bc1d2390883d87035b4d875210834d9605d0d22b5da6cd89c58a565bf0a0b8",
+    "webpSha256": "0bf4aa8034a6554779885294858b2b2d1cf34515594f4f0cd9411aad42ac87fc"
+  },
+  {
+    "id": "feng-taihou",
+    "name": "冯太后",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "sourceMode": "RGBA",
+    "sourceAlphaExtrema": [
+      0,
+      254
+    ],
+    "sourceTransparentPixels": 913720,
+    "sourceBounds": [
+      0,
+      35,
+      992,
+      1536
+    ],
+    "outputSize": [
+      800,
+      1120
+    ],
+    "outputAlphaExtrema": [
+      0,
+      255
+    ],
+    "safeMarginsPx": [
+      72,
+      64,
+      72,
+      64
+    ],
+    "webpBytes": 59728,
+    "sourceSha256": "929e94046bc9db45feb559a737f2a602a0d04dea29781bd6aa06ef439e736ba2",
+    "webpSha256": "1bfcf4c5ada3227b72a40f81ff0871d6bccb03d72bb20f191e1f69bc277129e5"
+  }
+]

@@ -1,0 +1,612 @@
+[
+  {
+    "path": "src/access/AccessProvider.ts",
+    "bytes": 554,
+    "sha256": "64db66be21e2d6a9fe844622dd0c3d5a71d6c8b551d9c8e43db1cbaf40e4288b"
+  },
+  {
+    "path": "src/analytics/analytics.ts",
+    "bytes": 1209,
+    "sha256": "ff42ee0e95e343c117fac22998cd015877024da73fc2e5ba69a11613eaa4b8a3"
+  },
+  {
+    "path": "src/app/App.tsx",
+    "bytes": 3062,
+    "sha256": "8b9b07eb9dc44bc27c69c18b0ce0eb35818f3a3faf24885e7bd54ed49d5d7b7d"
+  },
+  {
+    "path": "src/components/Brand.tsx",
+    "bytes": 338,
+    "sha256": "fab503f3f45b0436d4f8475bea6a347ea661ef83e8f7d429216e6a25c9054beb"
+  },
+  {
+    "path": "src/components/Portrait.tsx",
+    "bytes": 457,
+    "sha256": "02c414c91fa9a221a9c5016a656394d5e0b078a329a32d4892512c23c7ff712c"
+  },
+  {
+    "path": "src/components/Radar.tsx",
+    "bytes": 1967,
+    "sha256": "231f5a8d18806bf79f6ab049097a0e0118aef729504ceac332ce2f7d2498e0c5"
+  },
+  {
+    "path": "src/data/characters.ts",
+    "bytes": 59018,
+    "sha256": "77c40126153122846af49187721ab427fe41658fd11c2021a495f352aa106c9b"
+  },
+  {
+    "path": "src/data/dimensions.ts",
+    "bytes": 3331,
+    "sha256": "541da9005f607c0a6d0e61d000095b3cdce7b4f87375db500883abafdd509a5c"
+  },
+  {
+    "path": "src/data/questions.ts",
+    "bytes": 28298,
+    "sha256": "540f3787da9e7c1f6c788c282eafb586fc45987ef3c2fc1a02e5ff4ea3b5c8e9"
+  },
+  {
+    "path": "src/data/sampler.ts",
+    "bytes": 2740,
+    "sha256": "6f8013d5c4d501701e7332efdab3b550f8c5dcfa372458cff31608933ca75bed"
+  },
+  {
+    "path": "src/main.tsx",
+    "bytes": 1350,
+    "sha256": "6876265744608f0b71eb1f5d73bcf91098cb8a19b8fa5dad15fdeff991070b55"
+  },
+  {
+    "path": "src/pages/Access/Access.tsx",
+    "bytes": 1802,
+    "sha256": "d8c97b9c8e87d14eb52849ccf72a5de6f5d980ccdcdded2cee760782280e59cb"
+  },
+  {
+    "path": "src/pages/Generating/Generating.tsx",
+    "bytes": 1101,
+    "sha256": "2c817b3cd184f96fa9c2adbc7b9b25b2be5b5d8ace62f3208634f165f494764a"
+  },
+  {
+    "path": "src/pages/Landing/Landing.tsx",
+    "bytes": 4703,
+    "sha256": "2d08f18ae0662f48547a331199a34cbece8190ccb913bf607bcf7f9ace81e68a"
+  },
+  {
+    "path": "src/pages/Result/Result.tsx",
+    "bytes": 10633,
+    "sha256": "b4a112c6fcc877181374df9831beaf3e2db20635036b5e000ea51ffa776f4294"
+  },
+  {
+    "path": "src/pages/Test/Test.tsx",
+    "bytes": 3704,
+    "sha256": "7162094478b5028ce730912007f403872b48befe51297edfd7ca9a0c0ce65b9e"
+  },
+  {
+    "path": "src/report/reportGenerator.ts",
+    "bytes": 3605,
+    "sha256": "3db392926b97a416f1db8177f61b101b55cfd1baea951b4b8307d7dcae1d8885"
+  },
+  {
+    "path": "src/report/textRules.ts",
+    "bytes": 3039,
+    "sha256": "86617f1d7da580471505aa000785305667cfd56a7dc2d528dc2c7bf1fc250d26"
+  },
+  {
+    "path": "src/scoring/distance.ts",
+    "bytes": 468,
+    "sha256": "7f360ee6a7c307e82e21d19d808ef315e656a6b3163b6d66408281de246fa61d"
+  },
+  {
+    "path": "src/scoring/matcher.ts",
+    "bytes": 933,
+    "sha256": "a2f504097d4c124a040a36d9e1273569515b3d903653a98bd8338762628a0cea"
+  },
+  {
+    "path": "src/scoring/normalize.ts",
+    "bytes": 1094,
+    "sha256": "34d7eaa5adaa01729fdcec10e48c8fa16998ebe3d6972933ad3ce077eb45ce45"
+  },
+  {
+    "path": "src/scoring/secondaryMatcher.ts",
+    "bytes": 828,
+    "sha256": "364535c16f3794b88fa28a1bce901bf40f24976100bf761a6b5766941cb62532"
+  },
+  {
+    "path": "src/share/canvasRenderer.ts",
+    "bytes": 4360,
+    "sha256": "534da64640892bb5322637fb7c1322fe3a76a88b41648c67c613b12f8f06f4da"
+  },
+  {
+    "path": "src/share/shareCard.ts",
+    "bytes": 542,
+    "sha256": "604ed57955fea4f3cc08d0619e65f320576d61fbc79caadf516bc348ce123d87"
+  },
+  {
+    "path": "src/share/ShareDialog.tsx",
+    "bytes": 5158,
+    "sha256": "ae31826d55b56faf8587065f7d36cc9f92107ed3f6108928db879bed083a1ab4"
+  },
+  {
+    "path": "src/store/session.ts",
+    "bytes": 2223,
+    "sha256": "ece47ecfee426e98123fba5f4ecd84839179fc293f73bb8b01f2239f54c01120"
+  },
+  {
+    "path": "src/theme/styles.css",
+    "bytes": 25347,
+    "sha256": "62f266b599f2c8cf93a763840f7fe3749b2a539c4ac783030d01a7db0de6424c"
+  },
+  {
+    "path": "src/theme/tokens.css",
+    "bytes": 1650,
+    "sha256": "14a815e3d950a2c02fc17313e163b554f204e2d9e8eeeac74946bc0d979fad80"
+  },
+  {
+    "path": "src/types.ts",
+    "bytes": 1822,
+    "sha256": "fc329da6718190d59cdf9096123087618fa258b1de60e761ee3268171c89cfe0"
+  },
+  {
+    "path": "src/utils/random.ts",
+    "bytes": 559,
+    "sha256": "86c36d1d42fd34e58a47ed10a2c0e1b8b9e3743a4faa44cc328ed1bd232f7a16"
+  },
+  {
+    "path": "docs/CHARACTER_SYSTEM.md",
+    "bytes": 3290,
+    "sha256": "180f20bc33946e25dfe9c376140e3139c547718e343a3005483abf2349654fc5"
+  },
+  {
+    "path": "docs/PRODUCT.md",
+    "bytes": 3219,
+    "sha256": "1af130d2ac0b710b638667da1208c46bbe52faf8dee9f03162c02528ed61bae3"
+  },
+  {
+    "path": "docs/QUESTION_SYSTEM.md",
+    "bytes": 2304,
+    "sha256": "a570b2fdd0742505573aff49534c128be57bbbaa16c9c292aab187049f4b7644"
+  },
+  {
+    "path": "docs/RESULT_SYSTEM.md",
+    "bytes": 2111,
+    "sha256": "bd2f67103726393b54d3e14cd0c02dd54c2bbea0457fb9b680c36d1e2ec3ff83"
+  },
+  {
+    "path": "docs/SCORING_MODEL.md",
+    "bytes": 3571,
+    "sha256": "0fe262672c06bf8b8be78dd1f39f7c0dba83aeda18bd8816d7f0b2a4ac44819c"
+  },
+  {
+    "path": "docs/SHARE_CARD.md",
+    "bytes": 2015,
+    "sha256": "0b0bb52ffc8da709812c12744e47de85952f0ac991b2df4959fca53f5bedef91"
+  },
+  {
+    "path": "public/characters/ban-zhao.svg",
+    "bytes": 1280,
+    "sha256": "d0dfe1b21292f5c25b089c79850d62ec369e20b73171976d5de6bd012d0faf39"
+  },
+  {
+    "path": "public/characters/cai-wenji.svg",
+    "bytes": 1344,
+    "sha256": "1c9898dedc4549143c3bf4188622e29c36a252bb38355d120297ae4f14a790e7"
+  },
+  {
+    "path": "public/characters/cao-cao.svg",
+    "bytes": 1287,
+    "sha256": "bca3577e2bd7c865d394b839a7323d0e3cec2e234a49e09ba32543e821573430"
+  },
+  {
+    "path": "public/characters/feng-taihou.svg",
+    "bytes": 1280,
+    "sha256": "0c7b84da1768986e065558dcd850e6d39341181ceaca6dae1a2227348e56de71"
+  },
+  {
+    "path": "public/characters/fu-hao.svg",
+    "bytes": 1267,
+    "sha256": "f90fc93ca028b107b68b368ee55aeaed4ece5462f3eec3cc551cb6e522420f0f"
+  },
+  {
+    "path": "public/characters/han-xin.svg",
+    "bytes": 1274,
+    "sha256": "ca24a390c1e3c5268e22feb86d3ed585985699cba657fba6f28a9a8f90684109"
+  },
+  {
+    "path": "public/characters/li-bai.svg",
+    "bytes": 1274,
+    "sha256": "63f3854cc8ffddf1e91d2f45ccbb7bddce46e53a24bf4f5fce5852e0fdf17736"
+  },
+  {
+    "path": "public/characters/li-qingzhao.svg",
+    "bytes": 1342,
+    "sha256": "e7e4ac7535946f95e2bd343fbff6733a746dba8cce974848efd37069561d97c0"
+  },
+  {
+    "path": "public/characters/liu-bang.svg",
+    "bytes": 1350,
+    "sha256": "0ad439bd9e3d7417c1c500fbb8fdfce427e1c3878deeab5bb86cef64884efdac"
+  },
+  {
+    "path": "public/characters/lu-zhi.svg",
+    "bytes": 1278,
+    "sha256": "d3d2df23dfb6a7f510540324d9855c9a8ffd0099a1654f45c3273911ea3769b1"
+  },
+  {
+    "path": "public/characters/qin-shi-huang.svg",
+    "bytes": 1274,
+    "sha256": "d5e1061c4ba2a4d1cd044550ac2d9df9b0638ba00bb2916ae12f866c12590124"
+  },
+  {
+    "path": "public/characters/shangguan-waner.svg",
+    "bytes": 1266,
+    "sha256": "c077bbc5b87b6a84380a5cd9b1bbc09eb7d858d37e3c8b3189ded3b2d0147084"
+  },
+  {
+    "path": "public/characters/sima-qian.svg",
+    "bytes": 1286,
+    "sha256": "4f9d87b61510933786fd68b1afe6790eba30a56e9ce721626818704a3601c988"
+  },
+  {
+    "path": "public/characters/su-shi.svg",
+    "bytes": 1349,
+    "sha256": "7fadbea9f7f8a6fdd5f66a70356ee2b274fa94561eed3aa14d6560a2523f3827"
+  },
+  {
+    "path": "public/characters/tao-yuanming.svg",
+    "bytes": 1285,
+    "sha256": "b48c66b0f8fa9bfb69e66dce0f7c6dd88f61399bf1176a1a1aa8fddc4ce4a09b"
+  },
+  {
+    "path": "public/characters/wang-anshi.svg",
+    "bytes": 1351,
+    "sha256": "706afa4c4115dabcbe9cb87873646a856c4b834e66a61570eff7b8a82a8d2b9d"
+  },
+  {
+    "path": "public/characters/wang-yangming.svg",
+    "bytes": 1273,
+    "sha256": "d2b7558d59b61235fbe265789b11029e346bbdfdad1fc3671385554dfb228fab"
+  },
+  {
+    "path": "public/characters/wu-zetian.svg",
+    "bytes": 1280,
+    "sha256": "6ef349d812af2eb52fdae66fda9b50d190d6eed4fb863ce8fd09d7db17049b85"
+  },
+  {
+    "path": "public/characters/xin-qiji.svg",
+    "bytes": 1272,
+    "sha256": "93ac06f7017fd7e7e035fc5f5b8a45d53289fea68d8b474c9d6cb95e52ef29e1"
+  },
+  {
+    "path": "public/characters/zhang-juzheng.svg",
+    "bytes": 1287,
+    "sha256": "69f23d185e12a21211c0f59795d6995275ba7fa1f4901dd3c9449f565008710c"
+  },
+  {
+    "path": "public/characters/zhangsun.svg",
+    "bytes": 1343,
+    "sha256": "c5d70b84aab06793e6434fe042fbd1a63dc631467b1f2a9560294c35a712ac12"
+  },
+  {
+    "path": "public/characters/zheng-he.svg",
+    "bytes": 1351,
+    "sha256": "1b5feac2281917627f49307d15f58cd4d4cf6bb80b9e410e2c1529a49811aa96"
+  },
+  {
+    "path": "public/characters/zhuge-liang.svg",
+    "bytes": 1351,
+    "sha256": "c7d5a4a83bf4bfd67dd1bde05314c2fe504c6f4b8ea41db5777a9fe8a3c0bb38"
+  },
+  {
+    "path": "public/characters/zhuo-wenjun.svg",
+    "bytes": 1267,
+    "sha256": "896aa0eccef41f38ba67255e5ec8dc7cc8c429e29ba1221cbcac0ec37ddc120c"
+  },
+  {
+    "path": "public/favicon.svg",
+    "bytes": 221,
+    "sha256": "b640230e300968cb01bd1597e187abd187d4b8e868e788b9a7b1d5277575b994"
+  },
+  {
+    "path": "scripts/audit-content.ts",
+    "bytes": 2296,
+    "sha256": "46d0a5ca1dd054632a57c3bfc1632d40f9117e25e8ef5804878a18cf38921d95"
+  },
+  {
+    "path": "scripts/browser-edge-cases.ts",
+    "bytes": 2485,
+    "sha256": "f5141e268f8039806be79a25ed41f6c6f136b67e619f7d2e81ceb9934cc9e43f"
+  },
+  {
+    "path": "scripts/browser-normal-flow.js",
+    "bytes": 3926,
+    "sha256": "1c8048f6a9a80966fda715f04fa32b9643f98df1a91b5daca4f38f725fe1f134"
+  },
+  {
+    "path": "scripts/browser-test.ts",
+    "bytes": 8561,
+    "sha256": "3b7337ac72cb0bef5def3d0fe1334bacb3b4169e106344e40c1eca80526e1648"
+  },
+  {
+    "path": "scripts/generate-portraits.ts",
+    "bytes": 3273,
+    "sha256": "b190a8c4115aaa4b2e642d76c9f09b552191c5ffc4c384a64b97776a20704b9b"
+  },
+  {
+    "path": "scripts/lighthouse.mjs",
+    "bytes": 1697,
+    "sha256": "150bba5d60a9e2fe6f56feec52267429af0983e7ab125ceabfa355a658ee9cd4"
+  },
+  {
+    "path": "scripts/preview-mobile.js",
+    "bytes": 284,
+    "sha256": "d233f9675caa0f3429ca69531e52702280d3ccbd8f58f0cdf41cc4d0aabe624e"
+  },
+  {
+    "path": "scripts/simulate-results.ts",
+    "bytes": 3196,
+    "sha256": "6462fa1f2278dd5ac462ef0d503d7a80e20cef6c77425022090450c2c6dfe255"
+  },
+  {
+    "path": "scripts/stability-test.ts",
+    "bytes": 5885,
+    "sha256": "5e7fa055d4b8a4e7440196fa6fd9fff6cc86c105a5a0b90190f37d3f49f15db9"
+  },
+  {
+    "path": "scripts/verify-artifacts.py",
+    "bytes": 6855,
+    "sha256": "01ff53bc8e8cafebc11a7dd9a75abc892f54b2a2a065190c0aa7a741364c4729"
+  },
+  {
+    "path": "scripts/visual-check.ts",
+    "bytes": 3679,
+    "sha256": "1ca54e0f247cd8fbf620059576788a73937dbb986f02e9a4b0d7c09b13f0703e"
+  },
+  {
+    "path": "tests/model.test.ts",
+    "bytes": 5312,
+    "sha256": "4a24c4f2b5aeb963ffd2811d715927e101351f386ca11d02bd862fd4dca03f34"
+  },
+  {
+    "path": "screenshots/01-landing.png",
+    "bytes": 185790,
+    "sha256": "c6098805ca102fe172d7e7a4ffb397b30503b187556a8d8fbf75265d9f078dea"
+  },
+  {
+    "path": "screenshots/02-question.png",
+    "bytes": 50316,
+    "sha256": "a1b06c6903bdaba78d035196eeeb2d6760c2917d24738ac8404fe6872bb96b53"
+  },
+  {
+    "path": "screenshots/03-generating.png",
+    "bytes": 24972,
+    "sha256": "b7c44506d7c22be8680155698c49c0c8a71752d68a0293128d6e13fa70d7bb9e"
+  },
+  {
+    "path": "screenshots/04-result-hero.png",
+    "bytes": 86505,
+    "sha256": "c00c99eb979d9c02a510ce16a0b833be4f208113e28f9371341b18947e9145e3"
+  },
+  {
+    "path": "screenshots/05-personality-map.png",
+    "bytes": 57566,
+    "sha256": "a327bf02801e18760920fd85601a3734b04d670dd68b9305bf32cede66639d05"
+  },
+  {
+    "path": "screenshots/06-secondary.png",
+    "bytes": 92149,
+    "sha256": "7a52b4a056cf9a786538afb72091e65d3e2d02a08793fa68884c239b62a0ac5c"
+  },
+  {
+    "path": "screenshots/07-report.png",
+    "bytes": 81292,
+    "sha256": "eb9e616a80a0fb815aecbcbf4549068964729b2dc68800eac398a834d883882b"
+  },
+  {
+    "path": "screenshots/08-share-card.png",
+    "bytes": 75554,
+    "sha256": "0dfbf0c74e0114a61ec7131d17eda6742bff7658ce30052fadde23dfdb9821aa"
+  },
+  {
+    "path": "screenshots/landing-375.png",
+    "bytes": 182251,
+    "sha256": "c924dac12e3ab816797ecd49b121d159e04518c736800d88401b445116fd4f12"
+  },
+  {
+    "path": "screenshots/landing-390.png",
+    "bytes": 185790,
+    "sha256": "c6098805ca102fe172d7e7a4ffb397b30503b187556a8d8fbf75265d9f078dea"
+  },
+  {
+    "path": "screenshots/landing-430.png",
+    "bytes": 191703,
+    "sha256": "a460d42d46a4a8095196aa7b420bb75a5b2db0de4d819f25e89bca6ccd7bf6d7"
+  },
+  {
+    "path": "screenshots/landing-dark.png",
+    "bytes": 220418,
+    "sha256": "e27d44153ffa865626748a2e857e44352c9ed792975b2372c51c5a5d359f09fb"
+  },
+  {
+    "path": "screenshots/landing-desktop.png",
+    "bytes": 222924,
+    "sha256": "c08e2e384a97e7d734df86b54fe5808a5762234a5b08748177953420dc336998"
+  },
+  {
+    "path": "screenshots/mobile-share-fallback.png",
+    "bytes": 76235,
+    "sha256": "b95aecbffb9750b78c33e7d97ca1b7e0bcb9a9f26ac10b2bb19eefaf03d147b6"
+  },
+  {
+    "path": "screenshots/normal-flow-share.png",
+    "bytes": 603132,
+    "sha256": "00886d0d234184402d8a38674fb082f5385dbac6e6115aeda8855b51cc746f91"
+  },
+  {
+    "path": "screenshots/production-home.png",
+    "bytes": 114596,
+    "sha256": "d6f243575c76fd038e9017549488d9d0d961a7bda0b7598413e02bf92a4110d5"
+  },
+  {
+    "path": "screenshots/result-cao-cao.png",
+    "bytes": 543296,
+    "sha256": "d31bcf06585fc852dff69f89e59932b8f9fc9068b6e6ca1ef3131612e1855a3f"
+  },
+  {
+    "path": "screenshots/result-li-qingzhao.png",
+    "bytes": 578135,
+    "sha256": "b06e25a9810d4a01227b1fcdf76517285d66515db4632bcdb00ab41b6cb6d6b8"
+  },
+  {
+    "path": "screenshots/result-su-shi.png",
+    "bytes": 566947,
+    "sha256": "603b36e2b5ffd1ea776453f712569e4c56457a274c2474a2964abd2cd30e0126"
+  },
+  {
+    "path": "screenshots/result-wang-yangming.png",
+    "bytes": 550144,
+    "sha256": "df1640d667deb0523ad752d5144953093592d9b9f8dd66b904fb3f0c1840eaa3"
+  },
+  {
+    "path": "screenshots/result-wu-zetian.png",
+    "bytes": 540681,
+    "sha256": "2e2c1c4e2ec8eecef8ef08cb0e11bac5ef2d9ac2040257199bca7730745948ac"
+  },
+  {
+    "path": "screenshots/result-zhangsun.png",
+    "bytes": 570692,
+    "sha256": "b31e77c9b5db0efbfe8959b62b39644ed3fb88bffbc99744bac2e93dcd22cffa"
+  },
+  {
+    "path": "screenshots/share-cao-cao.png",
+    "bytes": 574564,
+    "sha256": "24704af2787eade52a9597aa80d3dfd12a957bff9e0a03be890f7c0068e30f02"
+  },
+  {
+    "path": "screenshots/share-card-comparison.png",
+    "bytes": 397058,
+    "sha256": "d15b929a93bf92449cca17f51eb616287062b3558adaf6222a00d51a430e4e2f"
+  },
+  {
+    "path": "screenshots/share-li-qingzhao.png",
+    "bytes": 597864,
+    "sha256": "5e24f55886e41258211d182b609f0e8242f52ca890ebcad9b21b4a6686aaa200"
+  },
+  {
+    "path": "screenshots/share-su-shi.png",
+    "bytes": 575255,
+    "sha256": "81332061b5f51744f9b20f72c40a0fbde5cfd6085db03ba8217bfaa46a7238da"
+  },
+  {
+    "path": "screenshots/share-wang-yangming.png",
+    "bytes": 566767,
+    "sha256": "3bd2f1ecd2071cabc3f24f2147f21cc8821a1f9422bbd51828516da31fc0453e"
+  },
+  {
+    "path": "screenshots/share-wu-zetian.png",
+    "bytes": 572135,
+    "sha256": "e2ca43a1f0cd04f85e9cf64fd3a0af6fd67bb4a36943484a3be4cd8b311a989a"
+  },
+  {
+    "path": "screenshots/share-zhangsun.png",
+    "bytes": 587813,
+    "sha256": "7121531cff16e3fcaa0951eb23e5238a8050e7154b298de2cb8b37ada8cc4fd3"
+  },
+  {
+    "path": "screenshots/verified-cao-cao-light.png",
+    "bytes": 73974,
+    "sha256": "a4d2fa33f8cc0aee6987bd69ed59ca077ea5d317643c9cd2acca3e43d9f31364"
+  },
+  {
+    "path": "screenshots/verified-li-qingzhao-light.png",
+    "bytes": 80708,
+    "sha256": "eac03d51efcf55d126a297f91094982274032947d7f885fd7a16c909d3f1e7fc"
+  },
+  {
+    "path": "screenshots/verified-su-shi-dark.png",
+    "bytes": 87340,
+    "sha256": "d71768ae400ce1205429cc79c4a9ae1dd5f78c92cb5f6feec502473e6883bc27"
+  },
+  {
+    "path": "screenshots/verified-su-shi-light.png",
+    "bytes": 86505,
+    "sha256": "c00c99eb979d9c02a510ce16a0b833be4f208113e28f9371341b18947e9145e3"
+  },
+  {
+    "path": "screenshots/verified-wang-yangming-light.png",
+    "bytes": 79169,
+    "sha256": "e4985decc4e39a1a9e7b83d024eba8a07c06585fb4ed84e8766be31f454c5825"
+  },
+  {
+    "path": "screenshots/verified-wu-zetian-light.png",
+    "bytes": 84081,
+    "sha256": "ae18e17726561a81f879f539883a4986ef2fbe36389eb8726cd4837133ec6ffd"
+  },
+  {
+    "path": "screenshots/verified-zhangsun-light.png",
+    "bytes": 87645,
+    "sha256": "6cc3033242ced8888434770c287b895a8c29015e50546a1df264e0321527104b"
+  },
+  {
+    "path": "research-own/browser-normal-flow.json",
+    "bytes": 157,
+    "sha256": "d0ab142137b7a78b85ac8bd3c6c38f6ed49e18231734145f5c4addfc7148cfbe"
+  },
+  {
+    "path": "research-own/browser-test.json",
+    "bytes": 5897,
+    "sha256": "1fa56be4098b35e9f7e2e9210a3512d70cc704f3e3d2937594a9250eef55fedb"
+  },
+  {
+    "path": "research-own/content-audit.json",
+    "bytes": 3539,
+    "sha256": "24b8931da29dd4392b6e969007507d2bbcc3dc33b4eb8d37076d0786c9facf24"
+  },
+  {
+    "path": "research-own/edge-case-test.json",
+    "bytes": 155,
+    "sha256": "5470d0b3d316dce54b8a68f693f3c99fa86fc49d3dc3d77d4cede64194bc40ab"
+  },
+  {
+    "path": "research-own/lighthouse.html",
+    "bytes": 395590,
+    "sha256": "ee4bda79159a057aac6e09473eb4a8730146ff1aac6e7535343f35d7fe17a9d4"
+  },
+  {
+    "path": "research-own/lighthouse.json",
+    "bytes": 1090,
+    "sha256": "45f77046ac87ff199513e56130a73f4ca2c6c183a026594b9ac8404648b94d52"
+  },
+  {
+    "path": "research-own/reachability-report.md",
+    "bytes": 1785,
+    "sha256": "7c9834056ae7805e36f4b07e7869b863b7ebb5ce41d1baccac9e931e6d225b9b"
+  },
+  {
+    "path": "research-own/reachability.json",
+    "bytes": 3916,
+    "sha256": "746df9d9c06640fb8bf51fcbcceae26bd75ced8ea9f5d3a78b47d78af329c65d"
+  },
+  {
+    "path": "research-own/result-witnesses.json",
+    "bytes": 33232,
+    "sha256": "c8b285fd90eb80224d2d4bf8330be51faa8d511f39f665c3756d3cd82e583885"
+  },
+  {
+    "path": "research-own/stability-report.md",
+    "bytes": 2066,
+    "sha256": "5864663e18aa86b7985bf85c348386c90e8f22444095b1533363d1af91e2fe3e"
+  },
+  {
+    "path": "research-own/stability.json",
+    "bytes": 9434,
+    "sha256": "4423e9d20983e7af0dfecd19ea918f4b9578bc4565b541e47784c94460ff6c26"
+  },
+  {
+    "path": "research-own/test-report.md",
+    "bytes": 4133,
+    "sha256": "a6f54a268e7eed264645cf41a914f9cc1ee8765e60da1184698facf70b780aeb"
+  },
+  {
+    "path": "research-own/visual-check.json",
+    "bytes": 1237,
+    "sha256": "381e9ecb97720860303aaaea17bafdb3dae31c4bbd9f5e080ee8b3c8db5a9102"
+  }
+]

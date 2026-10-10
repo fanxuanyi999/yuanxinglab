@@ -1,0 +1,404 @@
+{
+  "seed": 4010910,
+  "passed": true,
+  "definition": "Extreme = distance between old and new primary character vectors > 0.18; pair continuity = any overlap in the two labels",
+  "experiments": [
+    {
+      "changes": 1,
+      "count": 10000,
+      "primaryUnchanged": 0.6768,
+      "primarySecondaryOverlap": 0.9018,
+      "extremePortraitJump": 0.0089,
+      "meanVectorShift": 0.03434590739608674,
+      "maxVectorShift": 0.09508115596906781,
+      "examples": [
+        {
+          "before": "郑和",
+          "after": "李白",
+          "previousSecondary": "李白",
+          "newSecondary": "卓文君",
+          "portraitShift": 0.16925457080238626,
+          "vectorShift": 0.04916598006425797
+        },
+        {
+          "before": "班昭",
+          "after": "上官婉儿",
+          "previousSecondary": "司马迁",
+          "newSecondary": "武则天",
+          "portraitShift": 0.1197807655677655,
+          "vectorShift": 0.03981487797296042
+        },
+        {
+          "before": "韩信",
+          "after": "李白",
+          "previousSecondary": "李白",
+          "newSecondary": "韩信",
+          "portraitShift": 0.14193775537185302,
+          "vectorShift": 0.01782288996452226
+        },
+        {
+          "before": "王安石",
+          "after": "李白",
+          "previousSecondary": "曹操",
+          "newSecondary": "王安石",
+          "portraitShift": 0.14602688981827971,
+          "vectorShift": 0.038764639555816174
+        },
+        {
+          "before": "刘邦",
+          "after": "秦始皇",
+          "previousSecondary": "妇好",
+          "newSecondary": "刘邦",
+          "portraitShift": 0.12929622302101482,
+          "vectorShift": 0.04454509384704267
+        }
+      ]
+    },
+    {
+      "changes": 2,
+      "count": 10000,
+      "primaryUnchanged": 0.5646,
+      "primarySecondaryOverlap": 0.8493,
+      "extremePortraitJump": 0.0125,
+      "meanVectorShift": 0.05023461449683414,
+      "maxVectorShift": 0.14643976301120992,
+      "examples": [
+        {
+          "before": "卓文君",
+          "after": "李白",
+          "previousSecondary": "陶渊明",
+          "newSecondary": "卓文君",
+          "portraitShift": 0.06156448824200523,
+          "vectorShift": 0.0495790024015238
+        },
+        {
+          "before": "上官婉儿",
+          "after": "陶渊明",
+          "previousSecondary": "司马迁",
+          "newSecondary": "李白",
+          "portraitShift": 0.12701428807421627,
+          "vectorShift": 0.0490930154667696
+        },
+        {
+          "before": "郑和",
+          "after": "刘邦",
+          "previousSecondary": "上官婉儿",
+          "newSecondary": "吕雉",
+          "portraitShift": 0.07328639394526107,
+          "vectorShift": 0.06697858043938226
+        },
+        {
+          "before": "冯太后",
+          "after": "张居正",
+          "previousSecondary": "吕雉",
+          "newSecondary": "王安石",
+          "portraitShift": 0.05254544164340043,
+          "vectorShift": 0.05303774358365212
+        },
+        {
+          "before": "郑和",
+          "after": "上官婉儿",
+          "previousSecondary": "上官婉儿",
+          "newSecondary": "郑和",
+          "portraitShift": 0.14310289597873269,
+          "vectorShift": 0.050600770255559514
+        }
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "persona": "苏轼",
+      "draws": 100,
+      "mostFrequent": "李白",
+      "modeRate": 0.43,
+      "targetInPair": 0.22,
+      "distribution": {
+        "李白": 43,
+        "卓文君": 39,
+        "李清照": 4,
+        "苏轼": 14
+      }
+    },
+    {
+      "persona": "王阳明",
+      "draws": 100,
+      "mostFrequent": "王阳明",
+      "modeRate": 0.57,
+      "targetInPair": 0.58,
+      "distribution": {
+        "韩信": 18,
+        "曹操": 23,
+        "王阳明": 57,
+        "张居正": 2
+      }
+    },
+    {
+      "persona": "曹操",
+      "draws": 100,
+      "mostFrequent": "曹操",
+      "modeRate": 0.89,
+      "targetInPair": 0.94,
+      "distribution": {
+        "曹操": 89,
+        "韩信": 5,
+        "王阳明": 6
+      }
+    },
+    {
+      "persona": "诸葛亮",
+      "draws": 100,
+      "mostFrequent": "诸葛亮",
+      "modeRate": 0.51,
+      "targetInPair": 0.65,
+      "distribution": {
+        "诸葛亮": 51,
+        "妇好": 49
+      }
+    },
+    {
+      "persona": "李白",
+      "draws": 100,
+      "mostFrequent": "李白",
+      "modeRate": 1,
+      "targetInPair": 1,
+      "distribution": {
+        "李白": 100
+      }
+    },
+    {
+      "persona": "陶渊明",
+      "draws": 100,
+      "mostFrequent": "陶渊明",
+      "modeRate": 0.99,
+      "targetInPair": 1,
+      "distribution": {
+        "陶渊明": 99,
+        "李白": 1
+      }
+    },
+    {
+      "persona": "刘邦",
+      "draws": 100,
+      "mostFrequent": "刘邦",
+      "modeRate": 0.55,
+      "targetInPair": 0.95,
+      "distribution": {
+        "妇好": 41,
+        "刘邦": 55,
+        "郑和": 3,
+        "冯太后": 1
+      }
+    },
+    {
+      "persona": "秦始皇",
+      "draws": 100,
+      "mostFrequent": "秦始皇",
+      "modeRate": 0.81,
+      "targetInPair": 0.99,
+      "distribution": {
+        "妇好": 2,
+        "张居正": 17,
+        "秦始皇": 81
+      }
+    },
+    {
+      "persona": "张居正",
+      "draws": 100,
+      "mostFrequent": "张居正",
+      "modeRate": 0.81,
+      "targetInPair": 0.96,
+      "distribution": {
+        "秦始皇": 19,
+        "张居正": 81
+      }
+    },
+    {
+      "persona": "王安石",
+      "draws": 100,
+      "mostFrequent": "韩信",
+      "modeRate": 0.43,
+      "targetInPair": 0.46,
+      "distribution": {
+        "王安石": 41,
+        "张居正": 8,
+        "韩信": 43,
+        "曹操": 4,
+        "王阳明": 2,
+        "秦始皇": 2
+      }
+    },
+    {
+      "persona": "辛弃疾",
+      "draws": 100,
+      "mostFrequent": "辛弃疾",
+      "modeRate": 0.75,
+      "targetInPair": 1,
+      "distribution": {
+        "苏轼": 2,
+        "辛弃疾": 75,
+        "卓文君": 23
+      }
+    },
+    {
+      "persona": "司马迁",
+      "draws": 100,
+      "mostFrequent": "陶渊明",
+      "modeRate": 0.43,
+      "targetInPair": 0.4,
+      "distribution": {
+        "陶渊明": 43,
+        "司马迁": 38,
+        "蔡文姬": 16,
+        "班昭": 2,
+        "李清照": 1
+      }
+    },
+    {
+      "persona": "郑和",
+      "draws": 100,
+      "mostFrequent": "郑和",
+      "modeRate": 0.99,
+      "targetInPair": 0.99,
+      "distribution": {
+        "郑和": 99,
+        "刘邦": 1
+      }
+    },
+    {
+      "persona": "韩信",
+      "draws": 100,
+      "mostFrequent": "韩信",
+      "modeRate": 0.98,
+      "targetInPair": 1,
+      "distribution": {
+        "韩信": 98,
+        "曹操": 2
+      }
+    },
+    {
+      "persona": "武则天",
+      "draws": 100,
+      "mostFrequent": "曹操",
+      "modeRate": 0.82,
+      "targetInPair": 0.11,
+      "distribution": {
+        "韩信": 8,
+        "曹操": 82,
+        "王阳明": 6,
+        "武则天": 3,
+        "张居正": 1
+      }
+    },
+    {
+      "persona": "李清照",
+      "draws": 100,
+      "mostFrequent": "李清照",
+      "modeRate": 0.89,
+      "targetInPair": 0.89,
+      "distribution": {
+        "李清照": 89,
+        "陶渊明": 3,
+        "卓文君": 5,
+        "李白": 3
+      }
+    },
+    {
+      "persona": "上官婉儿",
+      "draws": 100,
+      "mostFrequent": "上官婉儿",
+      "modeRate": 0.89,
+      "targetInPair": 1,
+      "distribution": {
+        "上官婉儿": 89,
+        "班昭": 1,
+        "李清照": 6,
+        "蔡文姬": 3,
+        "陶渊明": 1
+      }
+    },
+    {
+      "persona": "班昭",
+      "draws": 100,
+      "mostFrequent": "班昭",
+      "modeRate": 0.83,
+      "targetInPair": 0.83,
+      "distribution": {
+        "班昭": 83,
+        "长孙皇后": 17
+      }
+    },
+    {
+      "persona": "蔡文姬",
+      "draws": 100,
+      "mostFrequent": "蔡文姬",
+      "modeRate": 1,
+      "targetInPair": 1,
+      "distribution": {
+        "蔡文姬": 100
+      }
+    },
+    {
+      "persona": "妇好",
+      "draws": 100,
+      "mostFrequent": "妇好",
+      "modeRate": 0.96,
+      "targetInPair": 0.97,
+      "distribution": {
+        "妇好": 96,
+        "诸葛亮": 4
+      }
+    },
+    {
+      "persona": "吕雉",
+      "draws": 100,
+      "mostFrequent": "吕雉",
+      "modeRate": 0.47,
+      "targetInPair": 0.75,
+      "distribution": {
+        "妇好": 16,
+        "诸葛亮": 12,
+        "吕雉": 47,
+        "张居正": 22,
+        "秦始皇": 2,
+        "长孙皇后": 1
+      }
+    },
+    {
+      "persona": "长孙皇后",
+      "draws": 100,
+      "mostFrequent": "长孙皇后",
+      "modeRate": 0.55,
+      "targetInPair": 1,
+      "distribution": {
+        "长孙皇后": 55,
+        "班昭": 45
+      }
+    },
+    {
+      "persona": "卓文君",
+      "draws": 100,
+      "mostFrequent": "李白",
+      "modeRate": 0.77,
+      "targetInPair": 1,
+      "distribution": {
+        "卓文君": 23,
+        "李白": 77
+      }
+    },
+    {
+      "persona": "冯太后",
+      "draws": 100,
+      "mostFrequent": "冯太后",
+      "modeRate": 0.47,
+      "targetInPair": 0.68,
+      "distribution": {
+        "妇好": 35,
+        "冯太后": 47,
+        "诸葛亮": 9,
+        "张居正": 8,
+        "秦始皇": 1
+      }
+    }
+  ]
+}

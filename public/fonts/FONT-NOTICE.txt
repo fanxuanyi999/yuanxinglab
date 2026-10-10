@@ -1,0 +1,6 @@
+Copyright © 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+Archetype Display is a character subset of Source Han Serif SC Heavy, with its family renamed for this project. It is licensed under the SIL Open Font License, Version 1.1. See OFL.txt for the full license.
+
+Source: https://github.com/adobe-fonts/source-han-serif
+Build: scripts/subset-display-font.py

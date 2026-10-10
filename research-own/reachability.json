@@ -1,0 +1,183 @@
+{
+  "seed": 20261009,
+  "count": 100000,
+  "mode": "Independent uniform options, a newly stratified 30-question draw each run",
+  "passed": true,
+  "rows": [
+    {
+      "id": "su-shi",
+      "name": "苏轼",
+      "hits": 1674,
+      "rate": 0.01674,
+      "nearestDistance": 0.07956264222296794
+    },
+    {
+      "id": "wang-yangming",
+      "name": "王阳明",
+      "hits": 2148,
+      "rate": 0.02148,
+      "nearestDistance": 0.06648492874328736
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "hits": 3560,
+      "rate": 0.0356,
+      "nearestDistance": 0.04575568571226967
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮",
+      "hits": 3331,
+      "rate": 0.03331,
+      "nearestDistance": 0.0692800000902136
+    },
+    {
+      "id": "li-bai",
+      "name": "李白",
+      "hits": 11348,
+      "rate": 0.11348,
+      "nearestDistance": 0.06156448824200523
+    },
+    {
+      "id": "tao-yuanming",
+      "name": "陶渊明",
+      "hits": 5439,
+      "rate": 0.05439,
+      "nearestDistance": 0.05492037759338514
+    },
+    {
+      "id": "liu-bang",
+      "name": "刘邦",
+      "hits": 3312,
+      "rate": 0.03312,
+      "nearestDistance": 0.07328639394526107
+    },
+    {
+      "id": "qin-shi-huang",
+      "name": "秦始皇",
+      "hits": 4526,
+      "rate": 0.04526,
+      "nearestDistance": 0.05639048822718242
+    },
+    {
+      "id": "zhang-juzheng",
+      "name": "张居正",
+      "hits": 2609,
+      "rate": 0.02609,
+      "nearestDistance": 0.05254544164340043
+    },
+    {
+      "id": "wang-anshi",
+      "name": "王安石",
+      "hits": 1654,
+      "rate": 0.01654,
+      "nearestDistance": 0.08359121813922799
+    },
+    {
+      "id": "xin-qiji",
+      "name": "辛弃疾",
+      "hits": 3410,
+      "rate": 0.0341,
+      "nearestDistance": 0.09937057876957346
+    },
+    {
+      "id": "sima-qian",
+      "name": "司马迁",
+      "hits": 1475,
+      "rate": 0.01475,
+      "nearestDistance": 0.07679351233991061
+    },
+    {
+      "id": "zheng-he",
+      "name": "郑和",
+      "hits": 5832,
+      "rate": 0.05832,
+      "nearestDistance": 0.07328639394526107
+    },
+    {
+      "id": "han-xin",
+      "name": "韩信",
+      "hits": 5246,
+      "rate": 0.05246,
+      "nearestDistance": 0.06648492874328736
+    },
+    {
+      "id": "wu-zetian",
+      "name": "武则天",
+      "hits": 1582,
+      "rate": 0.01582,
+      "nearestDistance": 0.04575568571226967
+    },
+    {
+      "id": "li-qingzhao",
+      "name": "李清照",
+      "hits": 3664,
+      "rate": 0.03664,
+      "nearestDistance": 0.05492037759338514
+    },
+    {
+      "id": "shangguan-waner",
+      "name": "上官婉儿",
+      "hits": 5922,
+      "rate": 0.05922,
+      "nearestDistance": 0.1102546953648687
+    },
+    {
+      "id": "ban-zhao",
+      "name": "班昭",
+      "hits": 5249,
+      "rate": 0.05249,
+      "nearestDistance": 0.0426830052538478
+    },
+    {
+      "id": "cai-wenji",
+      "name": "蔡文姬",
+      "hits": 4535,
+      "rate": 0.04535,
+      "nearestDistance": 0.07679351233991061
+    },
+    {
+      "id": "fu-hao",
+      "name": "妇好",
+      "hits": 6104,
+      "rate": 0.06104,
+      "nearestDistance": 0.05639048822718242
+    },
+    {
+      "id": "lu-zhi",
+      "name": "吕雉",
+      "hits": 4032,
+      "rate": 0.04032,
+      "nearestDistance": 0.07614393697137022
+    },
+    {
+      "id": "zhangsun",
+      "name": "长孙皇后",
+      "hits": 5644,
+      "rate": 0.05644,
+      "nearestDistance": 0.0426830052538478
+    },
+    {
+      "id": "zhuo-wenjun",
+      "name": "卓文君",
+      "hits": 5260,
+      "rate": 0.0526,
+      "nearestDistance": 0.06156448824200523
+    },
+    {
+      "id": "feng-taihou",
+      "name": "冯太后",
+      "hits": 2444,
+      "rate": 0.02444,
+      "nearestDistance": 0.05254544164340043
+    }
+  ],
+  "closeness": {
+    "min": 28,
+    "p10": 67,
+    "median": 80,
+    "p90": 90,
+    "max": 100
+  }
+}

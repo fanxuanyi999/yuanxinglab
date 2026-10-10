@@ -1,0 +1,721 @@
+[
+  {
+    "id": "su-shi",
+    "name": "苏轼",
+    "recognition": "竹杖、宽檐笠、随风行走、腰间葫芦",
+    "pose": "A relaxed walking scholar turns his head into the breeze, one hand lightly holding a bamboo walking stick, the other gathering his loose robe. Broad rain hat, a small wine gourd at his waist, a gently swinging robe hem. His posture feels open and unhurried.",
+    "palette": "near-black ink, muted blue-green sleeve shading, weathered straw brown",
+    "promptFile": "output/imagegen/prompts/su-shi.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/su-shi.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/su-shi.png",
+    "webFile": "public/characters/generated/su-shi.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/su-shi.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "wang-yangming",
+    "name": "王阳明",
+    "recognition": "方巾、文卷、收袖凝思、迈步而行",
+    "pose": "A composed Ming scholar stands in a quiet three-quarter pose with one hand holding a partly rolled manuscript and the other tucked into a wide sleeve at his chest. Plain scholar cap and restrained layered robes. A slight forward step conveys thought becoming action; no armor or royal insignia.",
+    "palette": "near-black ink, subtle pine-green and blue-grey folds",
+    "promptFile": "output/imagegen/prompts/wang-yangming.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/wang-yangming.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/wang-yangming.png",
+    "webFile": "public/characters/generated/wang-yangming.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/wang-yangming.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "cao-cao",
+    "name": "曹操",
+    "recognition": "高冠、披风、按剑、侧望远方",
+    "pose": "A decisive late-Han commander looks outward in side profile, broad cloak swept to one side by wind, one hand resting firmly on the hilt of a sheathed straight sword. A tall Han-style formal cap and compact mustache/beard silhouette. Proud but contained posture, not a fantasy warrior.",
+    "palette": "near-black ink, deep oxblood cloak shading, restrained aged-bronze fastenings",
+    "promptFile": "output/imagegen/prompts/cao-cao.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/cao-cao.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/cao-cao.png",
+    "webFile": "public/characters/generated/cao-cao.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/cao-cao.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "zhuge-liang",
+    "name": "诸葛亮",
+    "recognition": "纶巾、羽扇、鹤氅、收袖静立",
+    "pose": "A serene strategist in a tall folded scholar headcloth and long crane-style cloak holds an unmistakable white feather fan across his torso. His head is slightly inclined; his free hand is hidden naturally in his other broad sleeve. The fan and curved drape form a distinctive balanced silhouette.",
+    "palette": "near-black ink, muted midnight blue folds, ivory feather fan",
+    "promptFile": "output/imagegen/prompts/zhuge-liang.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/zhuge-liang.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/zhuge-liang.png",
+    "webFile": "public/characters/generated/zhuge-liang.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/zhuge-liang.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "li-bai",
+    "name": "李白",
+    "recognition": "仰首举杯、长剑、葫芦、飘带",
+    "pose": "An exuberant Tang poet leans slightly back, chin lifted toward a small wine cup raised high in one hand. The raised arm carries an enormous draped sleeve in a sweeping curve. His other hand rests beside a sheathed straight Chinese sword, with a double-gourd flask at the waist and a loose hair ribbon behind his topknot. Preserve the effortless upward gesture, not a stiff standing mannequin.",
+    "palette": "near-black ink robe, soft charcoal-brown sleeve highlights, muted brown gourd and cup",
+    "promptFile": "output/imagegen/prompts/li-bai.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/li-bai.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/li-bai.png",
+    "webFile": "public/characters/generated/li-bai.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/li-bai.txt",
+    "referenceFiles": [
+      "output/imagegen/references/poet-style.png"
+    ],
+    "originalSize": [
+      1122,
+      1402
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "tao-yuanming",
+    "name": "陶渊明",
+    "recognition": "斗笠、菊花、竹篮、布袍",
+    "pose": "A rustic poet in a broad straw hat walks quietly while carrying a small woven basket with a few chrysanthemum stems. His other hand gently holds one chrysanthemum at chest height. Loose simple robes and a low, relaxed shoulder line, no ornate scholar or court costume.",
+    "palette": "near-black ink, moss-grey cloth shading, straw brown basket and a small muted yellow flower",
+    "promptFile": "output/imagegen/prompts/tao-yuanming.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/tao-yuanming.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/tao-yuanming.png",
+    "webFile": "public/characters/generated/tao-yuanming.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/tao-yuanming.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "liu-bang",
+    "name": "刘邦",
+    "recognition": "汉冠、开袖迎人、佩环",
+    "pose": "An approachable early-Han leader turns three-quarter toward the viewer with one wide sleeve opening in a welcoming gesture, palm relaxed. A simple red-accented Han crown, long layered robe and one circular jade belt pendant. The other arm rests by the waist; his open posture is the main identity cue.",
+    "palette": "near-black ink, warm dark red robe folds, a small subdued jade pendant",
+    "promptFile": "output/imagegen/prompts/liu-bang.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/liu-bang.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/liu-bang.png",
+    "webFile": "public/characters/generated/liu-bang.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/liu-bang.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": "秦始皇",
+    "recognition": "冕旒、玄衣、正立长剑、仪式感",
+    "pose": "A solemn Qin ruler stands with a commanding near-frontal silhouette, a rectangular ceremonial crown with sparse hanging bead strands, broad black robes, narrow red trim. Both hands rest naturally on the pommel of a vertically sheathed long sword in front of him. Keep the head small and the ceremonial silhouette majestic and elongated, no throne.",
+    "palette": "dense black, very dark red trim, small antique-gold details",
+    "promptFile": "output/imagegen/prompts/qin-shi-huang.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/qin-shi-huang.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/qin-shi-huang.png",
+    "webFile": "public/characters/generated/qin-shi-huang.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/qin-shi-huang.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "zhang-juzheng",
+    "name": "张居正",
+    "recognition": "乌纱帽、玉带、笏板、端正立姿",
+    "pose": "A focused Ming statesman wears a recognizable black winged official hat, formal long robe, jade-panel belt and holds a slender ivory ceremonial tablet in one hand, the other hand covered by his sleeve. Slightly turned body, disciplined posture, restrained chest insignia rather than dense ornament.",
+    "palette": "near-black ink, muted aubergine cloth, ivory tablet, very sparse jade accents",
+    "promptFile": "output/imagegen/prompts/zhang-juzheng.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/zhang-juzheng.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/zhang-juzheng.png",
+    "webFile": "public/characters/generated/zhang-juzheng.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/zhang-juzheng.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "wang-anshi",
+    "name": "王安石",
+    "recognition": "朴素冠巾、展开文书、俯身审读",
+    "pose": "A spare Song scholar-official bends slightly toward an open paper manuscript held across both hands, as if carefully reviewing an idea. Plain dark scholar headwear, narrow shoulders and wide unadorned sleeves. One rolled document is tucked into his belt. Silhouette is attentive and quietly resolute.",
+    "palette": "near-black ink, muted olive-green shadows, parchment manuscript",
+    "promptFile": "output/imagegen/prompts/wang-anshi.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/wang-anshi.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/wang-anshi.png",
+    "webFile": "public/characters/generated/wang-anshi.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/wang-anshi.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "xin-qiji",
+    "name": "辛弃疾",
+    "recognition": "挽弓、箭矢、束发、侧身劲姿",
+    "pose": "An athletic but elongated Song poet-warrior stands side-on drawing a traditional Chinese longbow. One arm extends the bow and the other pulls the arrow toward his cheek, with anatomically coherent hands and a taut bowstring. Bound topknot, flowing broad sleeves, a restrained dark-russet outer robe. The bow must read clearly and fit entirely inside the frame.",
+    "palette": "near-black ink, dark russet sleeve shading, brown wooden bow",
+    "promptFile": "output/imagegen/prompts/xin-qiji.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/xin-qiji.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/xin-qiji.png",
+    "webFile": "public/characters/generated/xin-qiji.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/xin-qiji.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "sima-qian",
+    "name": "司马迁",
+    "recognition": "低冠、伏案执笔、竹简、坐姿",
+    "pose": "A persistent Han historian sits low beside a minimal writing support and leans into a bamboo-slip manuscript. One hand writes with a brush, the other steadies the slips. Modest low cap, long robe folded beneath him. The seated curved silhouette and bamboo record are central; only this small writing support, no furnished room.",
+    "palette": "near-black ink, subdued slate-blue folds, bamboo tan",
+    "promptFile": "output/imagegen/prompts/sima-qian.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/sima-qian.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/sima-qian.png",
+    "webFile": "public/characters/generated/sima-qian.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/sima-qian.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "zheng-he",
+    "name": "郑和",
+    "recognition": "明式冠帽、海图、迎风披衣",
+    "pose": "A confident Ming maritime envoy stands three-quarter with an unfolded navigation chart held diagonally across his body. A Ming formal cap and long cloak caught slightly by a sea breeze, its outer curve suggesting a sail. The gaze is lifted toward an imagined horizon. No ship, water or background scene; the chart has only abstract route marks.",
+    "palette": "near-black ink, muted deep teal cloak, parchment and sparse bronze details",
+    "promptFile": "output/imagegen/prompts/zheng-he.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/zheng-he.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/zheng-he.png",
+    "webFile": "public/characters/generated/zheng-he.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/zheng-he.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "han-xin",
+    "name": "韩信",
+    "recognition": "战盔、指图、斜剑、前倾谋划",
+    "pose": "A lean Han commander inclines forward in an intent strategic gesture, one hand indicating a route on a small unfurled campaign map held by the other. A restrained period helmet, cloak, sparse lamellar armor at the waist and a sheathed straight sword angled beside him. Avoid generic armored bulk; the leaning pose and map distinguish him.",
+    "palette": "near-black ink, muted steel-blue folds, parchment map, aged-bronze armor hints",
+    "promptFile": "output/imagegen/prompts/han-xin.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/han-xin.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/han-xin.png",
+    "webFile": "public/characters/generated/han-xin.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/han-xin.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "wu-zetian",
+    "name": "武则天",
+    "recognition": "唐式高冠、凤形冠饰、敕卷、开阔肩袖",
+    "pose": "A commanding Tang woman ruler stands poised and nearly frontal, wearing a simplified high gold floral-and-phoenix ceremonial crown, broad layered formal robes, one hand holding a short closed court scroll and the other resting within an expansive curved sleeve. Her chin is subtly raised and shoulders open. No European scepter, no fantasy crown or throne.",
+    "palette": "near-black ink, dark wine-purple sleeves, restrained antique gold crown",
+    "promptFile": "output/imagegen/prompts/wu-zetian.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/wu-zetian.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/wu-zetian.png",
+    "webFile": "public/characters/generated/wu-zetian.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/wu-zetian.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "li-qingzhao",
+    "name": "李清照",
+    "recognition": "素雅发髻、团扇、诗页、凝视细读",
+    "pose": "An independent Song woman poet stands slightly turned, holding a delicate round silk fan loosely at her side while studying a small folded poetry sheet in her other hand. Elegant restrained hair coils and one simple hairpin, soft long sleeves with an expressive descending curve. Quietly attentive rather than coy or decorative.",
+    "palette": "near-black ink, muted indigo-violet sleeve shading, pale warm ivory fan",
+    "promptFile": "output/imagegen/prompts/li-qingzhao.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/li-qingzhao.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/li-qingzhao.png",
+    "webFile": "public/characters/generated/li-qingzhao.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/li-qingzhao.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "shangguan-waner",
+    "name": "上官婉儿",
+    "recognition": "唐式高髻、悬笔、书卷、不对称长袖",
+    "pose": "A cultivated Tang woman writer holds a slender calligraphy brush poised above a small scroll in the other hand. A high swept-up hairstyle with one understated ornamental pin, long sleeves whose asymmetrical curves frame the poised brush. Head lifted slightly as if choosing a phrase, no decorative butterflies or floating symbols.",
+    "palette": "near-black ink, restrained plum-purple sleeves, dusty rose sash, parchment scroll",
+    "promptFile": "output/imagegen/prompts/shangguan-waner.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/shangguan-waner.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/shangguan-waner.png",
+    "webFile": "public/characters/generated/shangguan-waner.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/shangguan-waner.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "ban-zhao",
+    "name": "班昭",
+    "recognition": "汉式素髻、竹简、指读讲授",
+    "pose": "A learned Han woman stands in a gentle teaching gesture with an opened bundle of bamboo slips supported in one hand and the other hand indicating a line. Plain hair bun and simple pin, modest layered Han robes, a measured upright silhouette. Use bamboo slips, not a modern bound book.",
+    "palette": "near-black ink, muted dark jade cloth, bamboo tan",
+    "promptFile": "output/imagegen/prompts/ban-zhao.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/ban-zhao.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/ban-zhao.png",
+    "webFile": "public/characters/generated/ban-zhao.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/ban-zhao.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "cai-wenji",
+    "name": "蔡文姬",
+    "recognition": "披帛兜帽、斜抱琵琶、低坐、拨弦",
+    "pose": "A reflective Han woman musician sits low in a flowing cloak and head covering, holding a period-inspired lute diagonally against her torso. One hand rests on its neck, the other lightly touches the strings. A long scarf forms a quiet curve across the shoulder. Her compact seated silhouette should feel resilient and lyrical.",
+    "palette": "near-black ink, muted smoky blue cloak, warm aged-wood lute",
+    "promptFile": "output/imagegen/prompts/cai-wenji.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/cai-wenji.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/cai-wenji.png",
+    "webFile": "public/characters/generated/cai-wenji.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/cai-wenji.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "fu-hao",
+    "name": "妇好",
+    "recognition": "青铜钺、商式冠饰、甲衣、稳健立姿",
+    "pose": "A powerful Shang woman commander stands in a grounded three-quarter pose holding a broad bronze yue battle axe vertically beside her. Restrained Shang-inspired headdress, sparse bronze armor over a long dark garment, broad belt. One arm is firm on the axe shaft, the other relaxed near the waist. Ancient Chinese bronze shape, no Viking horns or European armor.",
+    "palette": "near-black ink, dark warm-brown armor shading, restrained aged bronze",
+    "promptFile": "output/imagegen/prompts/fu-hao.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/fu-hao.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/fu-hao.png",
+    "webFile": "public/characters/generated/fu-hao.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/fu-hao.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "lu-zhi",
+    "name": "吕雉",
+    "recognition": "汉式层冠、捧印、黑红交叠衣袍",
+    "pose": "An authoritative early-Han empress dowager stands in a contained frontal pose, a small ceremonial seal with a red cord held securely between her hands. A layered Han court headdress and overlapping broad black-and-dark-red robes create a closed, protective silhouette. Firm posture, no sinister caricature.",
+    "palette": "near-black ink, dark red inner robe, antique-gold seal",
+    "promptFile": "output/imagegen/prompts/lu-zhi.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/lu-zhi.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/lu-zhi.png",
+    "webFile": "public/characters/generated/lu-zhi.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/lu-zhi.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "zhangsun",
+    "name": "长孙皇后",
+    "recognition": "花形冠、圆扇、舒展披帛、侧身倾听",
+    "pose": "A composed Tang empress turns slightly in a mediating, attentive pose. One hand holds a round fan low at the waist; the other softly gathers a long draped silk shawl. Restrained floral court crown, the shawl makes one broad graceful arc around her arms. Her posture is dignified and calm, not passive.",
+    "palette": "near-black ink, muted sage-jade shadows, warm ivory silk and sparse gold ornament",
+    "promptFile": "output/imagegen/prompts/zhangsun.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/zhangsun.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/zhangsun.png",
+    "webFile": "public/characters/generated/zhangsun.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/zhangsun.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "zhuo-wenjun",
+    "name": "卓文君",
+    "recognition": "侧坐抚琴、长绸带、古琴",
+    "pose": "A free-spirited Han woman sits side-on at a minimal low guqin, both hands naturally placed over its strings. A long loose silk ribbon falls from her hair and a wide sleeve curves toward the instrument. The guqin is a long flat Chinese zither, not a keyboard or lute. Only a minimal low support under the instrument, no interior scene.",
+    "palette": "near-black ink, muted dusty-rose and plum robe shading, aged dark wood",
+    "promptFile": "output/imagegen/prompts/zhuo-wenjun.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/zhuo-wenjun.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/zhuo-wenjun.png",
+    "webFile": "public/characters/generated/zhuo-wenjun.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/zhuo-wenjun.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  },
+  {
+    "id": "feng-taihou",
+    "name": "冯太后",
+    "recognition": "北朝高冠、披肩、策简、微转立姿",
+    "pose": "A purposeful Northern Wei woman ruler stands slightly angled while holding a narrow bundle of policy slips in one hand; the other hand settles the edge of a structured draped shoulder mantle. A stylized Northern Dynasties tall formal headdress, compact shoulders and long clear robe lines. Blend formal authority and forward-looking movement without copying Tang court costume.",
+    "palette": "near-black ink, muted blue-grey mantle, restrained ochre-gold edging",
+    "promptFile": "output/imagegen/prompts/feng-taihou.txt",
+    "quality": "high",
+    "size": "1024x1536",
+    "status": "generated",
+    "sourceFile": "output/imagegen/originals/feng-taihou.png",
+    "generationTool": "builtin image_gen",
+    "model": "tool-selected (not pinned)",
+    "finalFile": "output/imagegen/final/feng-taihou.png",
+    "webFile": "public/characters/generated/feng-taihou.webp",
+    "actualPromptFile": "output/imagegen/prompts/builtin-2026-10-10/feng-taihou.txt",
+    "referenceFiles": [
+      "output/imagegen/originals/li-bai.png",
+      "output/imagegen/references/column-style.png"
+    ],
+    "originalSize": [
+      1024,
+      1536
+    ],
+    "webSize": [
+      800,
+      1120
+    ],
+    "transparent": true
+  }
+]

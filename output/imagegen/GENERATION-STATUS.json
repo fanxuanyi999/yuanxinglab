@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-10",
+  "tool": "builtin image_gen",
+  "model": "tool-selected; not pinned",
+  "requestedCount": 24,
+  "generatedCount": 24,
+  "acceptedCount": 24,
+  "rejectedDraftCount": 2,
+  "status": "completed_and_integrated",
+  "alpha": "All 24 original and web assets have genuine alpha transparency",
+  "postprocessing": "Resize and transparent padding only; original alpha preserved",
+  "webSize": [
+    800,
+    1120
+  ],
+  "minimumTransparentMarginPx": 64,
+  "webpTotalBytes": 1370680,
+  "originals": "output/imagegen/originals/",
+  "finalPngs": "output/imagegen/final/",
+  "webAssets": "public/characters/generated/",
+  "actualPrompts": "output/imagegen/prompts/builtin-2026-10-10/",
+  "manifest": "output/imagegen/character-manifest.json",
+  "assetChecks": "output/imagegen/asset-validation.json",
+  "contactSheet": "output/imagegen/character-contact-sheet.jpg",
+  "verification": {
+    "existingTestsPassed": 12,
+    "productionBuild": "passed",
+    "homeAndGalleryWidths": [
+      1440,
+      390
+    ],
+    "galleryDistinctAssets": 24,
+    "resultPagesChecked": 24,
+    "downloadedSharePngs": 24,
+    "sharePngSize": [
+      1080,
+      1440
+    ],
+    "pageErrors": [],
+    "horizontalOverflow": false,
+    "artifacts": "output/playwright/portraits/"
+  },
+  "unchanged": [
+    "scoring logic",
+    "report prose",
+    "direct address to the reader"
+  ],
+  "legacyStatus": "output/imagegen/GENERATION-STATUS-legacy.json"
+}

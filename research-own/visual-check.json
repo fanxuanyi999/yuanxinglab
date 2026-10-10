@@ -1,0 +1,79 @@
+[
+  {
+    "id": "su-shi",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "wang-yangming",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "li-qingzhao",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "cao-cao",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "wu-zetian",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "zhangsun",
+    "mode": "light",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  },
+  {
+    "id": "su-shi",
+    "mode": "dark",
+    "bar": {
+      "x": 0,
+      "y": 768.015625,
+      "width": 390,
+      "height": 75.984375
+    },
+    "violations": []
+  }
+]

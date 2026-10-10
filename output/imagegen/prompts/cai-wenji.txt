@@ -1,0 +1,13 @@
+Use case: stylized-concept.
+Asset type: one finished raster historical-character illustration for a Chinese personality app.
+Reference image 1: style reference of a single poet. Reference image 2: the isolated right-column character illustrations from the user's poster. Use only their character drawing style; do not reproduce typography, logos, screenshot layout or the poster's wheel.
+Style: sophisticated contemporary Chinese character illustration. Elegant elongated proportions, small pale-pink nearly featureless face in a carefully designed profile or three-quarter angle, black hair. Large expressive continuous silhouettes, flowing robe hems and generous sleeve curves, a few crisp angular folds. Near-black fabrics with subtle desaturated colored gradients and fine restrained grain. Natural, intentional posture and coherent anatomy. The figure must feel painted as one complete composition, not assembled from reusable geometric body parts. Match the references' sophistication, shape rhythm and controlled detail.
+Composition: exactly ONE character, isolated, complete clothing and all props inside the canvas. Leave at least 7% clear margin around the outermost hat, sleeve, weapon and robe hem. Vertical composition, no text area baked into the image. No extra people, contact sheet or collage.
+Background: real transparent alpha; keep the fabrics opaque. No rectangular paper background, ground shadow, scenery, halo, vignette or checkerboard painted into the image.
+Avoid: modern anime, chibi, photorealism, 3D toy, polygon mannequin, flat clipart, explicit polygon facets, identical front-facing poses, tiny overloaded ornament, modern accessories, extra limbs, extra hands, words, letters, signatures, watermarks and logos.
+This is a culturally recognizable artistic interpretation, not an archaeological portrait reconstruction. Props should suit the person's cultural associations and period. No text labels are needed to distinguish the person.
+
+Subject: 蔡文姬, 汉末, 文学人物.
+Individual character and gesture: A reflective Han woman musician sits low in a flowing cloak and head covering, holding a period-inspired lute diagonally against her torso. One hand rests on its neck, the other lightly touches the strings. A long scarf forms a quiet curve across the shoulder. Her compact seated silhouette should feel resilient and lyrical.
+Palette: near-black ink, muted smoky blue cloak, warm aged-wood lute.
+The pose, headdress and primary prop are essential recognition cues. Produce a fresh high-quality complete illustration, not an SVG or any code drawing.

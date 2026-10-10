@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Archetype Display';
+  src: url('/fonts/archetype-display-heavy.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+:root {
+  font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  color: #20231e;
+  background: #f5f4eb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --paper: #f5f4eb;
+  --surface: #fffef8;
+  --text: #20231e;
+  --muted: #595e53;
+  --line: #d4d7c8;
+  --accent: #272e25;
+  --sans: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --display: 'Archetype Display', 'Songti SC', 'SimSun', serif;
+  --serif: 'Songti SC', 'Noto Serif CJK SC', 'SimSun', serif;
+  --radius: 3px;
+  --z-nav: 10;
+  --z-actions: 20;
+  --z-dialog: 30;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1b1e19;
+    --surface: #252923;
+    --text: #f0efdf;
+    --muted: #c0c3b4;
+    --line: #525749;
+    --accent: #e2d8b8;
+    color: #f0efdf;
+    background: #1b1e19;
+    color-scheme: dark;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 32px;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+button,
+input,
+a {
+  font: inherit;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button,
+a,
+input,
+summary {
+  outline-offset: 5px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+button {
+  color: inherit;
+}
+a {
+  color: inherit;
+}
+button,
+summary {
+  touch-action: manipulation;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+button {
+  border: 0;
+}
+button:active:not(:disabled),
+.button:active {
+  transform: translateY(1px);
+}
+svg {
+  flex-shrink: 0;
+}
+::selection {
+  background: #f1d2ad;
+  color: #1c3452;
+}

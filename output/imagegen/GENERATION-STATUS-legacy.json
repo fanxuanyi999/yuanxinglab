@@ -1,0 +1,18 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "requestedCount": 24,
+  "generatedCount": 0,
+  "date": "2026-10-10",
+  "status": "blocked_by_execution_environment",
+  "firstAttempt": {
+    "character": "li-bai",
+    "result": "APIConnectionError",
+    "detail": "TLS connection terminated with UNEXPECTED_EOF_WHILE_READING before any Image API response."
+  },
+  "escalatedRetry": {
+    "executed": false,
+    "result": "approval_service_error",
+    "detail": "403 Forbidden: wangsu does not allow model codex-auto-review. Automatic approval review could not be completed; not a determination that generation is unsafe."
+  },
+  "nextStep": "Restore a functioning approval service, then retry the same GPT-Image-2.5 request. No generated asset has replaced the current portraits."
+}

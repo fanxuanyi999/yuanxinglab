@@ -1,0 +1,25 @@
+{
+  "runtimeError": {
+    "code": "NO_FCP",
+    "message": "The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "errorStack": "LighthouseError: NO_FCP\n    at Timeout.<anonymous> (file:///F:/Codex/Projects/testAI/node_modules/lighthouse/core/gather/driver/wait-for-condition.js:85:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)",
+    "artifactKey": "PageLoadError"
+  },
+  "warnings": [
+    "The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "measurement": "Local production preview, no synthetic CPU/network throttling; not field performance.",
+  "scores": {
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  "metrics": {
+    "first-contentful-paint": {},
+    "largest-contentful-paint": {},
+    "cumulative-layout-shift": {},
+    "total-blocking-time": {},
+    "speed-index": {}
+  }
+}
