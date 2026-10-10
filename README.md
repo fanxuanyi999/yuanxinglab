@@ -67,4 +67,10 @@ node node_modules/tsx/dist/cli.mjs scripts/browser-test.ts
 
 仓库：https://github.com/fanxuanyi999/yuanxinglab
 
-默认在本地编辑和验证，提供预览供用户检查。只有用户确认该次迭代后，才推送 GitHub 或更新线上部署。首次上传不配置自动部署；完整约定见 [AGENTS.md](AGENTS.md)。
+网站地址：https://fanxuanyi999.github.io/yuanxinglab/
+
+默认在本地编辑和验证，提供预览供用户检查。只有用户确认该次迭代后，才推送 GitHub 或更新线上部署。完整约定见 [AGENTS.md](AGENTS.md)。
+
+GitHub Pages 使用手动发布：仓库 Settings → Pages 将 Source 设为 GitHub Actions；在 Actions → Deploy GitHub Pages → Run workflow 选择 main 并运行。工作流会执行测试、按 `/yuanxinglab/` 路径构建并发布 `dist`。普通提交不会触发部署。
+
+本地验证线上路径：`npm run build -- --base=/yuanxinglab/`，然后 `npm run preview -- --base=/yuanxinglab/`，打开 http://127.0.0.1:4173/yuanxinglab/ 。

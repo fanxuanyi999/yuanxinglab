@@ -766,7 +766,7 @@ export const characters: HistoricalCharacter[] = seeds.map(({ direction, ...char
     ...character,
     vector,
     dominantDimensions,
-    image: `/characters/generated/${character.id}.webp`,
+    image: `${import.meta.env?.BASE_URL ?? '/'}characters/generated/${character.id}.webp`,
     factStatus: 'TODO: FACT_CHECK',
   };
 });
