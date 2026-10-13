@@ -28,8 +28,10 @@ jobs:
       - run: npm test
       - run: npm run build -- --base=/yuanxinglab/
         env:
-          # Enable the paid gate only after the redemption API is deployed.
-          VITE_ACCESS_REQUIRED: 'false'
+          # Static shared-code gate; this value is public in the browser bundle.
+          VITE_ACCESS_REQUIRED: 'true'
+          VITE_ACCESS_MODE: 'shared'
+          VITE_SHARED_ACCESS_CODE: '925729'
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

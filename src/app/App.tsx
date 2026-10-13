@@ -1,14 +1,14 @@
-import { useCallback, useEffect, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
 import { Landing } from '../pages/Landing/Landing';
 import { Access } from '../pages/Access/Access';
 import { Test } from '../pages/Test/Test';
 import { Generating } from '../pages/Generating/Generating';
-import { Result } from '../pages/Result/Result';
 import { createSession } from '../data/sampler';
 import { readSession, saveSession } from '../store/session';
 import { accessRequired, accessProvider } from '../access/AccessProvider';
 import { track } from '../analytics/analytics';
 import type { TestSession } from '../types';
+const Result = lazy(() => import('../pages/Result/Result').then(module => ({ default: module.Result })));
 export function App() {
   const [initial] = useState(readSession),
     [session, setSession] = useState<TestSession | null>(initial.session),
@@ -96,7 +96,9 @@ export function App() {
     );
   if (session.stage === 'generating') return <Generating onComplete={showResult} />;
   if (session.stage === 'result')
-    return <Result session={session} onRestart={restart} onHome={home} />;
+    return <Suspense fallback={<main className="narrow-page" role="status">正在打开你的原型报告…</main>}>
+      <Result session={session} onRestart={restart} onHome={home} />
+    </Suspense>;
   return (
     <Test
       session={session}

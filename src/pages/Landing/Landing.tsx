@@ -95,13 +95,13 @@ export function Landing({
             你我之间
           </span>
           <div className="stage-figure stage-left">
-            <Portrait character={characterById['li-qingzhao']} />
+            <Portrait character={characterById['li-qingzhao']} eager />
           </div>
           <div className="stage-figure stage-right">
-            <Portrait character={characterById['xin-qiji']} />
+            <Portrait character={characterById['xin-qiji']} eager />
           </div>
           <div className="stage-figure stage-center">
-            <Portrait character={characterById['li-bai']} />
+            <Portrait character={characterById['li-bai']} eager priority />
           </div>
         </div>
       </section>

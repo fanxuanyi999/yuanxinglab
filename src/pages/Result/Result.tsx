@@ -143,7 +143,7 @@ export function Result({
             </ReportInfo>
           </div>
           <div className="poster-halo" aria-hidden="true" />
-          <Portrait character={p} />
+          <Portrait character={p} eager priority />
           <div className="portrait-closeness">
             <strong>{match.primary.closeness}<small>%</small></strong>
             <span>原型接近度</span>
