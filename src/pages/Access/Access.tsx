@@ -17,7 +17,7 @@ export function Access({ onVerified, onHome }: { onVerified: () => void; onHome:
           setError('');
           try {
             if (await accessProvider.verify(code)) onVerified();
-            else setError('访问码不正确，请核对后再试。');
+            else setError('兑换码不正确，请核对订单中收到的兑换码。');
           } catch {
             setError('暂时无法验证，请稍后重试。');
           } finally {
@@ -26,16 +26,19 @@ export function Access({ onVerified, onHome }: { onVerified: () => void; onHome:
         }}
       >
         <p className="eyebrow">打开你的探索</p>
-        <h1>输入访问码</h1>
-        <p>使用你收到的访问码，开始这次相遇。</p>
-        <label htmlFor="access-code">访问码</label>
+        <h1>输入兑换码</h1>
+        <p>请输入「历史人格原型」订单中的兑换码，开始这次相遇。下次回来，也可以使用同一个码。</p>
+        <label htmlFor="access-code">兑换码</label>
         <input
           id="access-code"
           value={code}
           onChange={(e) => setCode(e.target.value)}
+          autoCapitalize="characters"
           inputMode="numeric"
+          placeholder="请输入 6 位数字兑换码"
+          spellCheck={false}
           autoComplete="one-time-code"
-          maxLength={24}
+          maxLength={40}
           aria-describedby="access-error"
           autoFocus
         />

@@ -22,11 +22,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24.14.0'
           cache: npm
       - run: npm ci
       - run: npm test
       - run: npm run build -- --base=/yuanxinglab/
+        env:
+          # Enable the paid gate only after the redemption API is deployed.
+          VITE_ACCESS_REQUIRED: 'false'
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

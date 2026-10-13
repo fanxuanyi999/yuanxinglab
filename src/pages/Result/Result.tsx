@@ -144,6 +144,10 @@ export function Result({
           </div>
           <div className="poster-halo" aria-hidden="true" />
           <Portrait character={p} />
+          <div className="portrait-closeness">
+            <strong>{match.primary.closeness}<small>%</small></strong>
+            <span>原型接近度</span>
+          </div>
           <p className="encounter-line">{visual.encounter}</p>
           <div className="result-name">
             <span>{p.era}</span>
@@ -158,7 +162,7 @@ export function Result({
             </span>
           )}
         </div>
-        <div className="result-intro">
+        <div className="result-intro" id="report-intro">
           <p className="intro-kicker">穿过千年，照见你的底色</p>
           <h2>{p.archetypeTitle}</h2>
           <p className="result-subtitle">{p.subtitle}</p>
@@ -168,13 +172,6 @@ export function Result({
             ))}
           </div>
           <p className="hero-quote">{p.shareQuote}</p>
-          <div className="match-badge">
-            <strong>
-              {match.primary.closeness}
-              <small>%</small>
-            </strong>
-            <span>原型接近度</span>
-          </div>
         </div>
       </section>
       <div className="report-body">
@@ -373,12 +370,9 @@ export function Result({
         </div>
       </div>
       <div className="result-action-bar">
-        <span>
-          <b>{p.name}</b> × {s.name}
-        </span>
         <button className="button primary" onClick={() => setSharing(true)}>
           <DownloadSimple size={19} />
-          制作我的分享卡
+          生成我的人物卡
         </button>
       </div>
       {sharing && (

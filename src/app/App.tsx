@@ -6,7 +6,7 @@ import { Generating } from '../pages/Generating/Generating';
 import { Result } from '../pages/Result/Result';
 import { createSession } from '../data/sampler';
 import { readSession, saveSession } from '../store/session';
-import { accessRequired } from '../access/AccessProvider';
+import { accessRequired, accessProvider } from '../access/AccessProvider';
 import { track } from '../analytics/analytics';
 import type { TestSession } from '../types';
 export function App() {
@@ -16,7 +16,25 @@ export function App() {
       initial.session ? 'session' : 'landing',
     ),
     [warning, setWarning] = useState(initial.warning),
-    [unlocked, setUnlocked] = useState(!accessRequired);
+    [unlocked, setUnlocked] = useState(!accessRequired),
+    [checking, setChecking] = useState(accessRequired),
+    [pendingStart, setPendingStart] = useState(false);
+  useEffect(() => {
+    // Old fulfillment URLs no longer grant access or prefill the manual form.
+    const url = new URL(window.location.href);
+    if (new URLSearchParams(url.hash.slice(1)).has('code')) url.hash = '';
+    url.searchParams.delete('code');
+    window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    if (!accessRequired) return;
+    let active = true;
+    accessProvider.session().then((valid) => {
+      if (!active) return;
+      setUnlocked(valid);
+    })
+      .catch(() => { /* Remain locked; the manual form allows retry. */ })
+      .finally(() => { if (active) setChecking(false); });
+    return () => { active = false; };
+  }, []);
   useEffect(() => {
     if (session && !saveSession(session))
       setWarning('此浏览器无法保存记录，请保持页面打开直到完成。');
@@ -33,7 +51,7 @@ export function App() {
   }, []);
   const requestStart = () => {
     if (unlocked) start();
-    else setView('access');
+    else { setPendingStart(true); setView('access'); }
   };
   const restart = () => {
     track('restart_test', session?.id);
@@ -50,16 +68,20 @@ export function App() {
     [],
   );
   const home = () => {
+    setPendingStart(false);
     setView('landing');
     window.scrollTo(0, 0);
   };
-  if (view === 'access')
+  if (checking && view !== 'landing') return <main className="narrow-page" role="status">正在打开你的探索…</main>;
+  if (view === 'access' || (view === 'session' && !unlocked))
     return (
       <Access
         onHome={home}
         onVerified={() => {
           setUnlocked(true);
-          start();
+          if (pendingStart || !session) start();
+          else setView('session');
+          setPendingStart(false);
         }}
       />
     );

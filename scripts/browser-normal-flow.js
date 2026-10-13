@@ -61,7 +61,7 @@ async (page) => {
     await page.screenshot({ path: `screenshots/${path}.png` });
   }
   await page.locator('.report-ending').scrollIntoViewIfNeeded();
-  await page.getByRole('button', { name: '制作我的分享卡' }).click();
+  await page.getByRole('button', { name: '生成我的人物卡' }).click();
   await page.locator('.share-preview').waitFor();
   await page.screenshot({ path: 'screenshots/08-share-card.png' });
   const downloadPromise = page.waitForEvent('download');

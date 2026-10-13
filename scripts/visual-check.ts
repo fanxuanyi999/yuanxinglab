@@ -59,7 +59,7 @@ try {
       }
     }
     if (mode === 'light') {
-      await page.getByRole('button', { name: '制作我的分享卡' }).click();
+      await page.getByRole('button', { name: '生成我的人物卡' }).click();
       await expect(page.locator('.share-preview')).toBeVisible();
       if (id === 'su-shi')
         await page.screenshot({ path: 'screenshots/08-share-card.png', animations: 'disabled' });

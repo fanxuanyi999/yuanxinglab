@@ -7,7 +7,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
     const image = new Image();
     image.crossOrigin = 'anonymous';
     image.onload = () => resolve(image);
-    image.onerror = () => reject(new Error('人物图像暂时加载失败，请重试。'));
+    image.onerror = () => reject(new Error('人物卡素材暂时加载失败，请重试。'));
     image.src = src;
   });
 }
@@ -121,17 +121,19 @@ export async function renderShareCard(data: ShareCardData): Promise<Blob> {
   wrapText(ctx, v.encounter, 540).forEach((line, i) => ctx.fillText(line, 1008, 180 + i * 48));
   ctx.textAlign = 'left';
 
+  ctx.textAlign = 'right';
+  ctx.font = `900 112px ${display}`;
+  ctx.fillText(`${closeness}%`, 1015, 844);
+  ctx.font = `500 22px ${sans}`;
+  ctx.fillText('原型接近度', 1015, 891);
+  ctx.textAlign = 'left';
+
   ctx.fillStyle = ink;
   ctx.fillRect(0, 960, W, H - 960);
   ctx.fillStyle = text;
   drawFitText(ctx, p.archetypeTitle, 65, 1045, 950, 46, 30, display, 900);
   ctx.font = `500 24px ${sans}`;
   ctx.fillText(p.tags.join('  /  '), 67, 1100);
-  ctx.textAlign = 'right';
-  ctx.font = `22px ${sans}`;
-  ctx.fillStyle = quiet;
-  ctx.fillText(`${closeness}% 原型接近度`, 1015, 1100);
-  ctx.textAlign = 'left';
   ctx.strokeStyle = '#797c6a';
   ctx.beginPath();
   ctx.moveTo(65, 1130);

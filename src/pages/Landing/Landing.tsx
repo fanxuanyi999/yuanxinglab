@@ -185,7 +185,7 @@ export function Landing({
         </button>
       </section>
       <footer className="landing-footer">
-        <span>人生原型实验室</span>
+        <Brand />
         <p>用于自我探索与娱乐体验。答题记录保存在当前浏览器。</p>
       </footer>
     </main>

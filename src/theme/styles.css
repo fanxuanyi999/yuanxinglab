@@ -55,12 +55,30 @@
   line-height: 1.8;
 }
 .brand {
+  font-family: var(--sans);
   display: flex;
   gap: 10px;
   align-items: center;
   text-align: left;
   padding: 0;
   background: none;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+.brand-logo {
+  display: block;
+  position: relative;
+  width: 190px;
+  aspect-ratio: 1981 / 343;
+  overflow: hidden;
+}
+.brand-logo img {
+  position: absolute;
+  width: 109.64%;
+  max-width: none;
+  height: auto;
+  left: -4.39%;
+  top: -51.31%;
 }
 .brand-mark {
   display: grid;
@@ -114,7 +132,7 @@
   margin: auto;
 }
 .site-header {
-  height: 80px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -453,7 +471,7 @@
   padding: 0 36px 32px;
 }
 .test-header {
-  height: 106px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -637,7 +655,7 @@
   padding: 0 36px 120px;
 }
 .result-header {
-  height: 96px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -675,8 +693,10 @@
 .result-hero {
   display: grid;
   grid-template-columns: 1.25fr 0.85fr;
+  grid-template-areas: 'art intro';
 }
 .result-art {
+  grid-area: art;
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -800,6 +820,7 @@
   opacity: 0.9;
 }
 .result-intro {
+  grid-area: intro;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -851,26 +872,66 @@
   line-height: 1.9;
   border-color: #626357;
 }
-.match-badge {
+
+/* The poster introduces a long report, with the score beside the portrait. */
+.result-header .brand-mark,
+.result-header .brand small {
+  display: none;
+}
+.result-header .brand {
+  min-height: 44px;
+}
+.result-header .brand b {
+  font-size: 13px;
+}
+.portrait-closeness {
+  position: absolute;
+  right: 24px;
+  bottom: 25px;
+  z-index: 2;
   display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin-top: auto;
-  padding-top: 27px;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff7e9;
+  text-shadow: 0 2px 12px #15141080;
 }
-.match-badge strong {
-  font:
-    31px/1 Georgia,
-    serif;
-  font-size: 22px;
+.portrait-closeness strong {
+  font: 900 76px/1 var(--display);
+  letter-spacing: -2px;
+  font-variant-numeric: tabular-nums;
 }
-.match-badge strong small {
-  font-size: 15px;
+.portrait-closeness small {
+  font-size: 30px;
+  letter-spacing: 0;
+  margin-left: 3px;
 }
-.match-badge > span {
-  letter-spacing: 1px;
+.portrait-closeness > span {
   font-size: 12px;
-  color: #d6d6c5;
+  letter-spacing: 2px;
+  margin-top: 9px;
+}
+#report-intro {
+  scroll-margin-top: 16px;
+}
+@media (max-width: 767px) {
+  .result-art > .portrait {
+    padding-bottom: 38px;
+    padding-right: 28px;
+  }
+  .portrait-closeness strong {
+    font-size: 68px;
+  }
+}
+@media (max-width: 767px) and (max-height: 660px) {
+  .result-art .result-report-label { top: 8px; }
+  .result-art .result-name { top: 52px; }
+  .result-art .result-name h1 { font-size: 54px; margin-top: 12px; }
+  .result-art .result-name h1[data-length='4'] { font-size: 47px; }
+  .result-art .result-name p { left: 64px; top: 38px; }
+  .result-art .encounter-line { top: 52px; font-size: 12px; }
+  .result-art .poster-seal { display: none; }
+  .portrait-closeness { bottom: 16px; right: 20px; }
+  .portrait-closeness strong { font-size: 60px; }
 }
 
 /* Long-form report */
@@ -1180,32 +1241,20 @@
 }
 .result-action-bar {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: calc(14px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 32px);
   z-index: var(--z-actions);
-  background: var(--paper);
-  border-top: 1px solid var(--line);
-  padding: 12px max(24px, calc((100vw - 750px) / 2)) calc(12px + env(safe-area-inset-bottom));
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-}
-.result-action-bar > span {
-  font-family: var(--serif);
-  font-size: 14px;
-  line-height: 1.7;
-}
-.result-action-bar > span > b {
-  font-weight: 400;
-  font-size: 21px;
 }
 .result-action-bar .button {
   font-size: 13px;
   padding: 12px 23px;
   gap: 9px;
   min-height: 48px;
+  box-shadow: 0 4px 18px #162d4830;
+  border: 1px solid var(--paper);
 }
 
 /* Explanations remain optional, in compact accessible dialogs */
@@ -1430,7 +1479,7 @@
     padding: 0 20px;
   }
   .site-header {
-    height: 80px;
+    height: 48px;
   }
   .brand b {
     font-size: 12px;
@@ -1619,8 +1668,9 @@
     padding: 0 22px 26px;
   }
   .test-header {
-    height: 88px;
+    height: 48px;
   }
+  .brand-logo { width: 174px; }
   .step-count {
     font-size: 26px;
   }
@@ -1654,14 +1704,14 @@
     padding: 0 22px 106px;
   }
   .result-header {
-    height: 79px;
+    height: 48px;
   }
   .result-hero {
     display: block;
     margin: 0 -22px;
   }
   .result-art {
-    height: clamp(470px, 125vw, 560px);
+    height: clamp(360px, calc(100svh - 180px), 560px);
   }
   .result-report-label {
     top: 17px;
@@ -1747,16 +1797,6 @@
     font-weight: 500;
     line-height: 1.9;
     font-size: 20px;
-  }
-  .match-badge {
-    padding-top: 19px;
-    gap: 10px;
-  }
-  .match-badge strong {
-    font-size: 20px;
-  }
-  .match-badge > span {
-    font-size: 11px;
   }
   .report-opening {
     padding: 45px 0 18px;
@@ -1870,18 +1910,6 @@
   .report-ending > span {
     font-size: 12px;
   }
-  .result-action-bar {
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 10px;
-  }
-  .result-action-bar > span {
-    font-size: 11px;
-  }
-  .result-action-bar > span > b {
-    display: block;
-    font-size: 18px;
-  }
   .result-action-bar .button {
     padding: 12px 18px;
     font-size: 12px;
@@ -1939,15 +1967,12 @@
     font-family: var(--display);
     font-weight: 900;
   }
-  .result-action-bar {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   .result-action-bar .button {
     padding: 12px 15px;
   }
 }
 @media (prefers-color-scheme: dark) {
+  .brand-logo img { filter: brightness(0) invert(0.94); }
   .button.primary:not(.start-button) {
     color: #1c241b;
   }

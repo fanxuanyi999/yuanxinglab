@@ -118,7 +118,7 @@ try {
         await page.screenshot({ path: `screenshots/${file}.png`, animations: 'disabled' });
       }
     }
-    await page.getByRole('button', { name: '制作我的分享卡' }).click();
+    await page.getByRole('button', { name: '生成我的人物卡' }).click();
     await expect(page.locator('.share-preview')).toBeVisible();
     if (c === 0) {
       await page.screenshot({ path: 'screenshots/08-share-card.png', animations: 'disabled' });
@@ -166,7 +166,7 @@ try {
   await m.evaluate(() =>
     Object.defineProperty(navigator, 'canShare', { value: undefined, configurable: true }),
   );
-  await m.getByRole('button', { name: '制作我的分享卡' }).click();
+  await m.getByRole('button', { name: '生成我的人物卡' }).click();
   await expect(m.locator('.share-preview')).toBeVisible();
   await m.getByRole('button', { name: '分享或保存图片' }).click();
   await expect(m.getByRole('status')).toContainText('长按图片保存');

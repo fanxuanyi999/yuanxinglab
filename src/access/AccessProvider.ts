@@ -1,12 +1,16 @@
-export interface AccessProvider {
-  verify(code: string): Promise<boolean>;
+async function request(path: string, init?: RequestInit) {
+  const response = await fetch(`/api/access/yuanxinglab/${path}`, {
+    ...init, credentials: 'same-origin', signal: AbortSignal.timeout(10000),
+  });
+  if (response.status === 401) return false;
+  if (!response.ok) throw new Error('兑换服务暂不可用');
+  const data = await response.json();
+  return data.authorized === true;
 }
-// Demo only: public front-end comparison is not secure authorization.
-// Replace this provider with a server-backed verification + entitlement flow.
-export class DemoAccessProvider implements AccessProvider {
-  async verify(code: string) {
-    return code.trim() === (import.meta.env.VITE_DEMO_ACCESS_CODE || '1024');
-  }
-}
-export const accessProvider: AccessProvider = new DemoAccessProvider();
+export const accessProvider = {
+  session: () => request('session'),
+  verify: (code: string) => request('redeem', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code }),
+  }),
+};
 export const accessRequired = import.meta.env.VITE_ACCESS_REQUIRED === 'true';

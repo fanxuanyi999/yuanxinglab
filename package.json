@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
+    "dev:access": "node server/access-server.mjs",
+    "code:issue": "node scripts/issue-code.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test tests/*.test.ts && node --test tests/*.test.mjs",
     "simulate": "tsx scripts/simulate-results.ts",
     "stability": "tsx scripts/stability-test.ts",
     "audit:content": "tsx scripts/audit-content.ts",

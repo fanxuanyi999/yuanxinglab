@@ -1,0 +1,4 @@
+interface:
+  display_name: "主题测试产品工作流"
+  short_description: "复用原型测试的产品结构，从主题与题库到沉浸报告、分享卡和验证交付"
+  default_prompt: "使用 $quiz-product-workflow 为我的新主题设计并开发测试 MVP，先确定结果模式，再定制题库和报告，本地验证后供我确认。"
