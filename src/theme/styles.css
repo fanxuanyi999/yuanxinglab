@@ -117,12 +117,20 @@
   font-size: 12px;
 }
 .icon-button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  box-shadow: none;
   display: grid;
   place-items: center;
   width: 40px;
   height: 40px;
   background: none;
   flex: 0 0 auto;
+}
+.icon-button:focus:not(:focus-visible),
+.dialog-title:focus {
+  outline: none;
 }
 
 /* Landing: a theatrical triptych followed by the character collection */
@@ -652,7 +660,7 @@
 .result-page {
   max-width: 1100px;
   margin: auto;
-  padding: 0 36px 120px;
+  padding: 0 36px 40px;
 }
 .result-header {
   height: 56px;
@@ -1240,21 +1248,15 @@
   gap: 12px;
 }
 .result-action-bar {
-  position: fixed;
-  bottom: calc(14px + env(safe-area-inset-bottom));
-  left: 50%;
-  transform: translateX(-50%);
-  width: max-content;
-  max-width: calc(100% - 32px);
-  z-index: var(--z-actions);
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
 }
 .result-action-bar .button {
   font-size: 13px;
   padding: 12px 23px;
   gap: 9px;
   min-height: 48px;
-  box-shadow: 0 4px 18px #162d4830;
-  border: 1px solid var(--paper);
 }
 
 /* Explanations remain optional, in compact accessible dialogs */
@@ -1701,7 +1703,7 @@
     font-size: 22px;
   }
   .result-page {
-    padding: 0 22px 106px;
+    padding: 0 22px calc(24px + env(safe-area-inset-bottom));
   }
   .result-header {
     height: 48px;

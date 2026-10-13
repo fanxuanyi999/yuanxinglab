@@ -355,6 +355,12 @@ export function Result({
             ))}
           </ol>
         </Chapter>
+        <div className="result-action-bar">
+          <button className="button primary" onClick={() => setSharing(true)}>
+            <DownloadSimple size={19} />
+            生成我的人物卡
+          </button>
+        </div>
         <div ref={bottom} className="report-ending">
           <p>
             你比一个名字，
@@ -368,12 +374,6 @@ export function Result({
             <ArrowRight size={17} />
           </button>
         </div>
-      </div>
-      <div className="result-action-bar">
-        <button className="button primary" onClick={() => setSharing(true)}>
-          <DownloadSimple size={19} />
-          生成我的人物卡
-        </button>
       </div>
       {sharing && (
         <ShareDialog match={match} sessionId={session.id} onClose={() => setSharing(false)} />

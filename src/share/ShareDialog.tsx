@@ -19,12 +19,14 @@ export function ShareDialog({
     [attempt, setAttempt] = useState(0);
   const blob = useRef<Blob | null>(null),
     dialog = useRef<HTMLDialogElement>(null),
+    heading = useRef<HTMLHeadingElement>(null),
     downloadRef = useRef<HTMLAnchorElement>(null);
   const mobile =
     /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || navigator.maxTouchPoints > 1;
   useEffect(() => {
     const active = document.activeElement as HTMLElement;
     dialog.current?.showModal();
+    heading.current?.focus({ preventScroll: true });
     return () => {
       dialog.current?.close();
       active?.focus();
@@ -82,7 +84,7 @@ export function ShareDialog({
         <header>
           <div>
             <p className="eyebrow">收藏这次相遇</p>
-            <h2 id="share-title">你的文化人物卡</h2>
+            <h2 ref={heading} id="share-title" tabIndex={-1} className="dialog-title">你的文化人物卡</h2>
           </div>
           <button className="icon-button" onClick={onClose} aria-label="关闭分享卡">
             <X size={24} />

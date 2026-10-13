@@ -7,6 +7,7 @@ export function ReportInfo({ title, children }: { title: string; children: React
   const id = useId();
   const trigger = useRef<HTMLButtonElement>(null);
   const dialog = useRef<HTMLDialogElement>(null);
+  const heading = useRef<HTMLHeadingElement>(null);
   const readingPosition = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -15,6 +16,7 @@ export function ReportInfo({ title, children }: { title: string; children: React
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     element.showModal();
+    heading.current?.focus({ preventScroll: true });
     return () => {
       element.close();
       document.body.style.overflow = previousOverflow;
@@ -76,13 +78,12 @@ export function ReportInfo({ title, children }: { title: string; children: React
         >
           <div className="report-info-content">
             <header>
-              <h2 id={id}>{title}</h2>
+              <h2 ref={heading} id={id} tabIndex={-1} className="dialog-title">{title}</h2>
               <button
                 type="button"
                 className="icon-button"
                 aria-label="关闭说明"
                 onClick={() => setOpen(false)}
-                autoFocus
               >
                 <X size={20} aria-hidden="true" />
               </button>
